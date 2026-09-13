@@ -9,6 +9,33 @@ export type Feld = {
   seite?: number
 }
 
+export type MerkmalKey =
+  | 'habitus' | 'stamm' | 'nadel' | 'blatt' | 'bluete' | 'bluetezeit'
+  | 'frucht' | 'vorkommen' | 'ansprueche' | 'verwendung' | 'sonstiges' | 'sorten'
+
+export type Merkmale = Partial<Record<MerkmalKey, Feld>>
+
+/** Reihenfolge und Beschriftung wie in den Studienblättern */
+export const MERKMALE: { key: MerkmalKey; label: string }[] = [
+  { key: 'habitus',    label: 'Habitus' },
+  { key: 'stamm',      label: 'Stamm' },
+  { key: 'nadel',      label: 'Nadeln' },
+  { key: 'blatt',      label: 'Blatt' },
+  { key: 'bluete',     label: 'Blüte' },
+  { key: 'bluetezeit', label: 'Blütezeit' },
+  { key: 'frucht',     label: 'Frucht' },
+  { key: 'vorkommen',  label: 'Vorkommen' },
+  { key: 'ansprueche', label: 'Ansprüche' },
+  { key: 'verwendung', label: 'Verwendung' },
+  { key: 'sonstiges',  label: 'Sonstiges' },
+  { key: 'sorten',     label: 'Sorten' },
+]
+
+/** Merkmale, die man draußen ohne Hilfsmittel sieht */
+export const FREILAND_FELDER: MerkmalKey[] = [
+  'habitus', 'stamm', 'nadel', 'blatt', 'bluete', 'frucht',
+]
+
 export type BildTyp =
   | 'habitus' | 'leaf' | 'twig' | 'bud' | 'bark'
   | 'flower' | 'fruit' | 'cone' | 'detail'
@@ -50,10 +77,10 @@ export type Species = {
   masterNames: string[]
   synonym: string
 
-  /* ab Phase 4 befüllt – bis dahin undefined, nichts wird geraten */
-  merkmale?: Partial<Record<
-    'habitus'|'stamm'|'blatt'|'nadel'|'bluete'|'bluetezeit'|'frucht'|
-    'vorkommen'|'ansprueche'|'verwendung'|'sonstiges', Feld>>
+  /* Phase 4: seitengenau aus den Studienblättern übernommen */
+  merkmale?: Merkmale
+  /** Beschreibung der ganzen Gattung aus dem Skript */
+  gattungsmerkmale?: Merkmale
   freiland?: Feld
   entscheidend?: Feld[]
   verwechslung?: { mit: string; trennmerkmal: Feld }[]

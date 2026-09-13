@@ -1,0 +1,199 @@
+{
+"start": {
+ "frage": "Was siehst du am Zweig?",
+ "optionen": [
+  {"label": "Nadeln oder Schuppen", "hinweis": "immergrün oder sommergrün", "ziel": "n1"},
+  {"label": "Flächige Blätter", "hinweis": "wird in Phase 6 ergänzt", "ziel": "laub_offen"}
+ ]
+},
+
+"laub_offen": {
+ "frage": "Laubgehölze",
+ "text": "Für die Laubgehölze wird der Schlüssel noch gebaut. Die Merkmale liegen inzwischen bei 428 Arten aus dem Skript vor — die Verzweigung dazu kommt in Phase 6.",
+ "optionen": [
+  {"label": "Zurück zum Anfang", "ziel": "start"}
+ ]
+},
+
+"n1": {
+ "frage": "Wie sitzen die Blätter am Zweig?",
+ "optionen": [
+  {"label": "Schuppen, dem Zweig anliegend", "ziel": "schuppen"},
+  {"label": "Nadeln, deutlich abstehend", "ziel": "nadeln"},
+  {"label": "Schuppen und Nadeln an derselben Pflanze", "ziel": "gemischt"}
+ ]
+},
+
+"gemischt": {
+ "frage": "Schuppen und Nadeln nebeneinander",
+ "arten": [
+  {"id": "juniperus_virginiana", "merkmal": "Schuppen und Nadeln, wächst oft flach am Boden", "quelle": "zusammenfassung"},
+  {"id": "chamaecyparis_pisifera", "merkmal": "Schuppen und Nadeln, bläulich, Frucht erbsengroß", "quelle": "zusammenfassung"}
+ ]
+},
+
+"schuppen": {
+ "frage": "Wie sehen Trieb, Geruch und Frucht aus?",
+ "optionen": [
+  {"label": "Trieb flach wie plattgedrückt, riecht zerrieben nach Terpentin", "ziel": "e_calocedrus"},
+  {"label": "Frucht länglich, Zweige flächig und waagrecht", "ziel": "thuja"},
+  {"label": "Frucht rund, Borke breit gestreift", "ziel": "chamaecyparis"},
+  {"label": "Frucht mit hornartigem Fortsatz, Borke fein gestreift", "ziel": "e_platycladus"},
+  {"label": "Unterseite mit auffallender weißer Zeichnung, breite Triebe", "ziel": "e_thujopsis"},
+  {"label": "Triebe stehen in alle Richtungen ab", "ziel": "e_cupressocyparis"},
+  {"label": "Triebe auffallend nach unten hängend, männliche Blüten gelb", "ziel": "e_xanthocyparis"}
+ ]
+},
+
+"e_calocedrus": {"frage": "Weihrauchzeder", "arten": [
+ {"id": "calocedrus_decurrens", "merkmal": "Trieb flach, wie plattgedrückt; beim Zerreiben Terpentingeruch. Lawsoniana ist auch eher flach, aber nicht so plattgedrückt.", "quelle": "zusammenfassung"}]},
+"e_platycladus": {"frage": "Morgenländischer Lebensbaum", "arten": [
+ {"id": "platycladus_orientalis", "merkmal": "Frucht mit hornartigem Fortsatz, Borke feine Streifen", "quelle": "zusammenfassung"}]},
+"e_thujopsis": {"frage": "Hiba-Lebensbaum", "arten": [
+ {"id": "thujopsis_dolabrata", "merkmal": "Auf der Nadelunterseite eine auffallende weiße Zeichnung, breite Triebe", "quelle": "zusammenfassung"}]},
+"e_cupressocyparis": {"frage": "Riesenzypresse", "arten": [
+ {"id": "cupressocyparis_leylandii", "merkmal": "Schuppengewächs, Triebe stehen dreidimensional in alle Richtungen ab", "quelle": "zusammenfassung"}]},
+"e_xanthocyparis": {"frage": "Nootka-Scheinzypresse", "arten": [
+ {"id": "xanthocyparis_nootkatensis", "merkmal": "Triebe auffallend nach unten hängend, männliche Blüten gelb", "quelle": "zusammenfassung"}]},
+
+"thuja": {
+ "frage": "Thuja — welche Art?",
+ "arten": [
+  {"id": "thuja_occidentalis", "merkmal": "Ober- und Unterseite grün, flächige waagrechte Zweige, Frucht länglich", "quelle": "zusammenfassung"},
+  {"id": "thuja_plicata", "merkmal": "Weiße Spaltöffnungsstreifen auf der Unterseite, zerrieben Ananasgeruch", "quelle": "zusammenfassung"}
+ ]
+},
+
+"chamaecyparis": {
+ "frage": "Scheinzypresse — welche Art?",
+ "arten": [
+  {"id": "chamaecyparis_lawsoniana", "merkmal": "Männliche Blüten rot, dachziegelartig, Früchte rund, Borke breit gestreift", "quelle": "zusammenfassung"},
+  {"id": "chamaecyparis_pisifera", "merkmal": "Schuppen und Nadeln, bläulich, Frucht erbsengroß", "quelle": "zusammenfassung"},
+  {"id": "chamaecyparis_obtusa", "merkmal": "Triebe muschelförmig gebogen, Blatt glänzend, deutliche silberweiße Linien", "quelle": "zusammenfassung"}
+ ]
+},
+
+"nadeln": {
+ "frage": "Fallen die Nadeln im Winter ab?",
+ "hinweis": "Im Herbst färben sich die Nadeln dieser Arten gelb bis goldbraun.",
+ "optionen": [
+  {"label": "Ja, sommergrün", "ziel": "sommergruen"},
+  {"label": "Nein, immergrün", "ziel": "stellung"}
+ ]
+},
+
+"sommergruen": {
+ "frage": "Sommergrüne Nadelgehölze",
+ "arten": [
+  {"id": "larix_decidua", "merkmal": "Nadeln in Büscheln an Kurztrieben, Zapfen fallen mit Zweigen ab, Schuppenborke. Der einzige heimische Nadelbaum, der die Nadeln im Winter verliert.", "quelle": "zusammenfassung"},
+  {"id": "larix_kaempferi", "merkmal": "Nadeln bläulich, im Herbst goldgelb, Rinde löst sich in dünnen Platten", "quelle": "zusammenfassung"},
+  {"id": "metasequoia_glyptostroboides", "merkmal": "Kugelige Zapfen, Stamm mit „Achselhöhlen“, Nadeln gegenständig", "quelle": "zusammenfassung"},
+  {"id": "taxodium_distichum", "merkmal": "Nadeln wechselständig; im Skript S. 14", "quelle": "skript"},
+  {"id": "pseudolarix_amabilis", "merkmal": "Nadeln in Büscheln an Kurztrieben; im Skript S. 6", "quelle": "skript"}
+ ]
+},
+
+"stellung": {
+ "frage": "Wie stehen die Nadeln?",
+ "optionen": [
+  {"label": "Einzeln am Zweig", "ziel": "einzeln"},
+  {"label": "In Büscheln zu 2, 3 oder 5, am Grund mit Scheide", "ziel": "pinus"},
+  {"label": "Büschelig an Kurztrieben, immergrün", "ziel": "e_cedrus"},
+  {"label": "Spiralig um den Zweig, sichelförmig gekrümmt", "ziel": "spiralig"},
+  {"label": "Blätter dreieckig, steif und stechend, Baum wenig verzweigt", "ziel": "e_araucaria"}
+ ]
+},
+
+"e_cedrus": {"frage": "Zeder", "arten": [
+ {"id": "cedrus_atlantica", "merkmal": "Nadeln in Büscheln angeordnet, aus dem Atlasgebirge in Marokko", "quelle": "zusammenfassung"},
+ {"id": "cedrus_libani", "merkmal": "Libanon-Zeder; im Skript S. 7", "quelle": "skript"},
+ {"id": "cedrus_deodara", "merkmal": "Himalaja-Zeder; im Skript S. 7", "quelle": "skript"}]},
+"e_araucaria": {"frage": "Chilenische Araukarie", "arten": [
+ {"id": "araucaria_araucana", "merkmal": "Wenig verzweigt, Blatt dreieckig, steif, stechend", "quelle": "zusammenfassung"}]},
+
+"spiralig": {
+ "frage": "Spiralig stehende, sichelförmige Nadeln",
+ "arten": [
+  {"id": "cryptomeria_japonica", "merkmal": "Stamm löst sich in schmalen Streifen, Nadeln spiralig, sichelartig gekrümmt, Frucht kugelig", "quelle": "zusammenfassung"},
+  {"id": "sequoiadendron_giganteum", "merkmal": "Stamm schwammig mit luftgefüllter, sehr weicher Rinde, Zweige stehen im rechten Winkel ab", "quelle": "zusammenfassung"}
+ ]
+},
+
+"einzeln": {
+ "frage": "Einzeln stehende Nadeln — der wichtigste Knoten",
+ "hinweis": "Zieh eine Nadel ab und schau, was am Zweig zurückbleibt.",
+ "optionen": [
+  {"label": "Flach, zweireihig gescheitelt; abgezogen bleibt ein Teller; Zapfen stehen aufrecht", "hinweis": "Tanne", "ziel": "abies"},
+  {"label": "Vierkantig, rundum am Zweig; abgerissen bleibt ein weißes Fähnchen; Zapfen hängen", "hinweis": "Fichte", "ziel": "picea"},
+  {"label": "Weich, riecht zerrieben nach Orange und Zitrone; Zapfen mit Zwischenschuppen", "ziel": "e_pseudotsuga"},
+  {"label": "Kurz und gescheitelt, einzelne silbrige Nadeln liegen verkehrt oben auf; kleinste Zapfen", "ziel": "e_tsuga"},
+  {"label": "Weich, kein Zapfen, roter fleischiger Samenmantel; Borke fleckig abschuppend", "ziel": "e_taxus"}
+ ]
+},
+
+"e_pseudotsuga": {"frage": "Douglasie", "arten": [
+ {"id": "pseudotsuga_menziesii", "merkmal": "Zapfen mit Zwischenschuppen, Nadeln sehr weich, riechen nach Orangen und Zitronen", "quelle": "zusammenfassung"}]},
+"e_tsuga": {"frage": "Hemlocktanne", "arten": [
+ {"id": "tsuga_canadensis", "merkmal": "Einzelne silbrige Nadeln liegen verkehrt auf der Oberseite des Zweiges auf, kleinste Zapfen", "quelle": "zusammenfassung"}]},
+"e_taxus": {"frage": "Eibe", "arten": [
+ {"id": "taxus_baccata", "merkmal": "Zweihäusig, fast alle Teile giftig außer dem Arillus (Kern giftig), Borke fleckig und abschuppend", "quelle": "zusammenfassung"}]},
+
+"abies": {
+ "frage": "Tanne — welche Art?",
+ "arten": [
+  {"id": "abies_alba", "merkmal": "Einzige heimische Tanne. Nadeln deutlich kammförmig gescheitelt, Zapfen bleiben am Baum", "quelle": "zusammenfassung"},
+  {"id": "abies_nordmanniana", "merkmal": "Nadelspitze vorne eingebuchtet, oft als Christbaum", "quelle": "zusammenfassung"},
+  {"id": "abies_cephalonica", "merkmal": "Nadeln stehen in alle Richtungen ab, scharf spitz, Rückseite mit weißen Spaltöffnungsstreifen", "quelle": "zusammenfassung"},
+  {"id": "abies_pinsapo", "merkmal": "Nadeln steif und rechtwinklig abstehend — „Flaschenputzer“", "quelle": "zusammenfassung"},
+  {"id": "abies_concolor", "merkmal": "Streng gescheitelt, Nadeln sehr lang, leicht bogig aufwärts", "quelle": "zusammenfassung"}
+ ]
+},
+
+"picea": {
+ "frage": "Fichte — welche Art?",
+ "arten": [
+  {"id": "picea_abies", "merkmal": "Heimisch. Zapfen hängen nach unten, Nadeln stechend", "quelle": "zusammenfassung"},
+  {"id": "picea_omorika", "merkmal": "Schmaler Wuchs, Nadeln mit weißen Streifen auf der Rückseite, Äste hängen und biegen sich nach oben", "quelle": "zusammenfassung"},
+  {"id": "picea_orientalis", "merkmal": "Die kürzesten Nadeln von allen Fichten", "quelle": "zusammenfassung"},
+  {"id": "picea_pungens", "merkmal": "Nadeln stechend und bläulich, Sorte ‘Glauca’", "quelle": "zusammenfassung"}
+ ]
+},
+
+"pinus": {
+ "frage": "Wie viele Nadeln stecken in einem Büschel?",
+ "hinweis": "Zähl nach — das ist bei Kiefern das verlässlichste Merkmal.",
+ "optionen": [
+  {"label": "Zwei", "ziel": "pinus2"},
+  {"label": "Drei", "ziel": "pinus3"},
+  {"label": "Fünf", "ziel": "pinus5"}
+ ]
+},
+
+"pinus2": {
+ "frage": "Zwei Nadeln je Büschel",
+ "arten": [
+  {"id": "pinus_sylvestris", "merkmal": "Heimisch. Nadeln eher kurz, bis 7 cm; Borke unten grau, nach oben hin rotbraun", "quelle": "zusammenfassung"},
+  {"id": "pinus_nigra", "merkmal": "Heimisch. Nadeln sehr lang, bis 18 cm; Stamm grau-braun, dick, plattig", "quelle": "zusammenfassung"},
+  {"id": "pinus_mugo", "merkmal": "Heimisch. Strauchförmige Kiefer", "quelle": "zusammenfassung"},
+  {"id": "pinus_uncinata", "merkmal": "Wie Pinus mugo, nur in groß; kurze Nadeln, Haken an den Zapfen", "quelle": "zusammenfassung"},
+  {"id": "pinus_heldreichii", "merkmal": "Sehr ähnlich Pinus nigra — unterscheidet sich deutlich durch die Harzausflüsse am Stamm", "quelle": "zusammenfassung"}
+ ]
+},
+
+"pinus3": {
+ "frage": "Drei Nadeln je Büschel",
+ "arten": [
+  {"id": "pinus_ponderosa", "merkmal": "Lange Nadeln zu dritt (Pinus nigra hat zwei), Stamm rot-schwarzbraun", "quelle": "zusammenfassung"}
+ ]
+},
+
+"pinus5": {
+ "frage": "Fünf Nadeln je Büschel",
+ "arten": [
+  {"id": "pinus_cembra", "merkmal": "Heimisch. Die einzige heimische Kiefer mit fünf Nadeln", "quelle": "zusammenfassung"},
+  {"id": "pinus_strobus", "merkmal": "Nicht heimisch, Nadeln auffallend dünn, Zapfen walzenförmig", "quelle": "zusammenfassung"},
+  {"id": "pinus_wallichiana", "merkmal": "Nadeln dünn, lang und hängend, Zapfen gebogen", "quelle": "zusammenfassung"},
+  {"id": "pinus_aristata", "merkmal": "Weiße Harzpunkte auf den Nadeln", "quelle": "zusammenfassung"}
+ ]
+}
+}

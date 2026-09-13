@@ -4,9 +4,14 @@ Interaktive Lernseite für die Gehölzprüfung. 551 Taxa aus den Studienblätter
 der Vorlesungsliste und dem Türkenschanzpark-Führer. Mobil bedienbar, für den
 Einsatz im Park gebaut.
 
-Stand: **Phase 3** — Datenbasis, Navigation, Artenliste, Artenseiten, Bildsystem,
-Fortschritt, Prüfungsmodus (Grundform), Türkenschanzpark-Platzhalter.
-Merkmale, Verwechslungsgruppen und Bestimmungsschlüssel folgen in Phase 4–6.
+Stand: **Phase 4** — Datenbasis, Navigation, Artenliste, Artenseiten mit
+Merkmalen aus den Studienblättern, Bildsystem, Fortschritt, Prüfungsmodus,
+Bestimmung über Freilandmerkmale, Türkenschanzpark-Platzhalter.
+Verwechslungsgruppen folgen in Phase 5.
+
+Merkmalsdaten: 457 Arten mit Einzelbeschreibung aus dem Skript (2 971 Felder,
+jedes mit Seitenbeleg), 476 mit Gattungsbeschreibung, 259 mit Freilandprofil
+aus der Zusammenfassung 2021S.
 
 ---
 

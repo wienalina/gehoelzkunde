@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { byId, SPECIES } from '../data'
 import { Hauptbild, Bildraster } from '../components/ImageGrid'
+import Merkmalsliste, { Quellenzeile } from '../components/Merkmalsliste'
 import { gesehen } from '../lib/progress'
 
 function Fehlt({ was }: { was: string }) {
@@ -57,14 +58,55 @@ export default function SpeciesDetail() {
         </section>
       )}
 
-      <section className="px-4 py-4 border-b border-line">
-        <h2 className="text-[15px] font-semibold mb-2">Erkennen</h2>
-        {s.entscheidend?.length
-          ? <ol className="list-decimal pl-5 space-y-1 text-[15px]">
-              {s.entscheidend.map((f, i) => <li key={i}>{f.text}</li>)}
-            </ol>
-          : <Fehlt was="Merkmale folgen in Phase 4" />}
+      {s.freiland && (
+        <section className="px-4 py-4 border-b border-line">
+          <h2 className="text-[15px] font-semibold mb-1.5">Woran du sie draußen erkennst</h2>
+          <p className="text-[16px] leading-relaxed">{s.freiland.text}</p>
+          <div className="mt-2"><Quellenzeile quelle={s.freiland.quelle} seite={s.freiland.seite} /></div>
+        </section>
+      )}
+
+      {s.entscheidend?.length ? (
+        <section className="px-4 py-4 border-b border-line">
+          <h2 className="text-[15px] font-semibold mb-1.5">Im Skript hervorgehoben</h2>
+          <ul className="space-y-1.5">
+            {s.entscheidend.map((f, i) => (
+              <li key={i} className="text-[15px] leading-relaxed border-l-2 border-signal pl-3">
+                {f.text}
+              </li>
+            ))}
+          </ul>
+          <p className="text-[12px] text-muted mt-2">
+            Die Studienblätter setzen an diesen Stellen ein Rufzeichen.
+          </p>
+        </section>
+      ) : null}
+
+      <section className="px-4 pt-4 pb-2">
+        <h2 className="text-[15px] font-semibold">Merkmale</h2>
+        {!s.merkmale && <p className="text-[15px] text-muted mt-1">
+          Für diese Art steht in den Unterlagen kein Merkmalstext.
+        </p>}
       </section>
+      {s.merkmale && <Merkmalsliste m={s.merkmale} />}
+
+      {s.gattungsmerkmale && (
+        <section className="px-4 py-4 border-b border-line">
+          <details>
+            <summary className="tap text-[15px] font-semibold cursor-pointer">
+              Was alle Arten der Gattung {s.genus} gemeinsam haben
+            </summary>
+            <dl className="mt-2 space-y-2">
+              {Object.entries(s.gattungsmerkmale).map(([k, f]) => (
+                <div key={k}>
+                  <dt className="text-[13px] text-muted capitalize">{k}</dt>
+                  <dd className="text-[15px] leading-relaxed">{f.text}</dd>
+                </div>
+              ))}
+            </dl>
+          </details>
+        </section>
+      )}
 
       <section className="px-4 py-4 border-b border-line">
         <h2 className="text-[15px] font-semibold mb-2">Nicht verwechseln mit</h2>
