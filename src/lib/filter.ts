@@ -19,8 +19,20 @@ export const START_FILTER: Filter = {
   nurPark: false, nurHeimisch: false, ohneQuelleAusblenden: true, nurZuPruefen: false,
 }
 
-const norm = (s: string) =>
+export const norm = (s: string) =>
   s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss')
+
+/** Ohne Leerzeichen und Bindestriche: „Feldahorn“, „Feld-Ahorn“ und „Feld Ahorn“ sind gleich. */
+const kompakt = (t: string) => norm(t).replace(/[\s\-\u2010-\u2013]/g, '')
+
+/** Sucht in lateinischem und deutschem Namen, Gattung, Familie und Synonymen. */
+export function passtZuSuche(s: Species, suche: string): boolean {
+  const teile = norm(suche.trim()).split(/\s+/).map(kompakt).filter(Boolean)
+  if (teile.length === 0) return true
+  // Felder einzeln verdichten, damit keine Treffer über Feldgrenzen hinweg entstehen
+  const heu = [s.name, s.de, s.family, s.genus, s.synonym, ...s.masterNames].map(kompakt).join('|')
+  return teile.every(teil => heu.includes(teil))
+}
 
 export function anwenden(liste: Species[], f: Filter): Species[] {
   const q = norm(f.suche.trim())
@@ -34,10 +46,7 @@ export function anwenden(liste: Species[], f: Filter): Species[] {
     if (f.nurHeimisch && !s.native) return false
     if (f.ohneQuelleAusblenden && s.dataState === 'ohne_quelle') return false
     if (f.nurZuPruefen && !s.checkName) return false
-    if (q) {
-      const heu = norm([s.name, s.de, s.family, s.genus, s.synonym, ...s.masterNames].join(' '))
-      if (!heu.includes(q)) return false
-    }
+    if (q && !passtZuSuche(s, f.suche)) return false
     return true
   })
 }

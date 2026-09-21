@@ -1,19 +1,21 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { SPECIES } from '../data'
 import type { Species } from '../types/species'
 import { antwort, verwechselt, faellig } from '../lib/progress'
 
 /** Modus 2 aus dem Konzept: Familie → Gattung → Art. Läuft ohne Bilder. */
-function frageBauen(pool: Species[]) {
-  const ziel = pool[Math.floor(Math.random() * pool.length)]
-  const falsche = pool
+function frageBauen(pool: Species[], festesZiel?: Species) {
+  const ziel = festesZiel ?? pool[Math.floor(Math.random() * pool.length)]
+  const nah = pool
     .filter(s => s.id !== ziel.id && s.genus === ziel.genus)
     .concat(pool.filter(s => s.id !== ziel.id && s.family === ziel.family))
     .filter((s, i, a) => a.findIndex(x => x.id === s.id) === i)
     .slice(0, 8)
     .sort(() => Math.random() - 0.5)
-    .slice(0, 3)
+  // Hat die Gattung zu wenige Verwandte, mit beliebigen Arten auffüllen
+  const rest = pool.filter(s => s.id !== ziel.id && !nah.includes(s)).sort(() => Math.random() - 0.5)
+  const falsche = [...nah, ...rest].slice(0, 3)
   const optionen = [ziel, ...falsche].sort(() => Math.random() - 0.5)
   return { ziel, optionen }
 }
@@ -29,7 +31,11 @@ export default function QuizPage() {
     return bevorzugt.length >= 8 ? bevorzugt : pool
   }, [pool])
 
-  const [runde, setRunde] = useState(() => frageBauen(dran))
+  // „Gehölz lernen“ von der Karte oder dem Steckbrief: /pruefung?art=<id>
+  const [params] = useSearchParams()
+  const wunsch = SPECIES.find(x => x.id === params.get('art'))
+  const wunschGeht = Boolean(wunsch?.de)
+  const [runde, setRunde] = useState(() => frageBauen(dran, wunschGeht ? wunsch : undefined))
   const [gewaehlt, setGewaehlt] = useState<string | null>(null)
   const [punkte, setPunkte] = useState({ richtig: 0, gesamt: 0 })
 
@@ -51,6 +57,12 @@ export default function QuizPage() {
         <p className="text-[14px] text-muted tabular-nums">{punkte.richtig}/{punkte.gesamt}</p>
       </div>
       <p className="text-[14px] text-muted mt-1">Deutscher Name → lateinischer Name</p>
+      {wunsch && !wunschGeht && (
+        <p className="text-[14px] mt-3 border border-line rounded-xl2 px-3 py-2">
+          Für <span className="binom">{wunsch.name}</span> ist kein deutscher Name hinterlegt –
+          diese Abfrage braucht einen. Die Fragen kommen deshalb zufällig.
+        </p>
+      )}
 
       <p className="text-[22px] font-semibold mt-6 mb-4">{runde.ziel.de}</p>
 

@@ -8,6 +8,7 @@ import KeyPage from './pages/KeyPage'
 import QuizPage from './pages/QuizPage'
 import ProgressPage from './pages/ProgressPage'
 import ParkPage from './pages/ParkPage'
+import ParkFuehrerPage from './pages/ParkFuehrerPage'
 
 function NachOben() {
   const { pathname } = useLocation()
@@ -18,9 +19,11 @@ function NachOben() {
 export default function App() {
   const { pathname } = useLocation()
   const tief = pathname.startsWith('/art/')
+  // Die Karte bekommt die volle Breite, alles andere bleibt lesefreundlich schmal
+  const breit = pathname === '/park'
 
   return (
-    <div className="mx-auto max-w-[720px] min-h-full">
+    <div className={breit ? 'min-h-full' : 'mx-auto max-w-[720px] min-h-full'}>
       <NachOben />
       {tief && (
         <div className="sticky top-0 z-30 bg-paper border-b border-line">
@@ -35,6 +38,7 @@ export default function App() {
         <Route path="/pruefung" element={<QuizPage />} />
         <Route path="/fortschritt" element={<ProgressPage />} />
         <Route path="/park" element={<ParkPage />} />
+        <Route path="/park/fuehrer" element={<ParkFuehrerPage />} />
         <Route path="*" element={<p className="p-4">Diese Seite gibt es nicht.</p>} />
       </Routes>
       <BottomNav />

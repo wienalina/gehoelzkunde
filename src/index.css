@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
+:root {
+  color-scheme: light;
+  --nadel: #2E5A66;
+  --laub: #5C7A24;
+}
 
 html, body, #root { height: 100%; }
 

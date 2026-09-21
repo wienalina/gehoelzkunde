@@ -4,6 +4,7 @@ import { byId, SPECIES } from '../data'
 import { Hauptbild, Bildraster } from '../components/ImageGrid'
 import Merkmalsliste, { Quellenzeile } from '../components/Merkmalsliste'
 import { gesehen } from '../lib/progress'
+import { pinsLesen } from '../lib/kartenpins'
 
 function Fehlt({ was }: { was: string }) {
   return <p className="text-[15px] text-muted">Nicht in den bereitgestellten Unterlagen gefunden ({was}).</p>
@@ -16,6 +17,7 @@ export default function SpeciesDetail() {
 
   if (!s) return <p className="p-4">Diese Art gibt es im Datenbestand nicht.</p>
 
+  const eigeneStandorte = pinsLesen().filter(p => p.speciesId === s.id).length
   const geschwister = SPECIES.filter(x => x.genus === s.genus && x.id !== s.id)
 
   return (
@@ -129,9 +131,19 @@ export default function SpeciesDetail() {
 
       <section className="px-4 py-4 border-b border-line">
         <h2 className="text-[15px] font-semibold mb-2">Türkenschanzpark</h2>
-        {s.inPark
-          ? <p className="text-[15px]">Im Gehölzkundeführer belegt. Das genaue Kartenblatt wird in Phase 10 ergänzt.</p>
-          : <p className="text-[15px] text-muted">Im Führer nicht gefunden.</p>}
+        <p className="text-[15px]">
+          {s.inPark ? 'Im Gehölzkundeführer belegt.' : 'Im Gehölzkundeführer nicht gefunden.'}
+        </p>
+        {eigeneStandorte > 0 ? (
+          <Link to={`/park?art=${s.id}`}
+                className="inline-flex items-center h-11 mt-3 px-4 rounded-xl2 bg-ink text-paper text-[15px] font-medium">
+            {eigeneStandorte === 1 ? 'Dein Standort' : `Deine ${eigeneStandorte} Standorte`} auf der Karte
+          </Link>
+        ) : (
+          <Link to="/park" className="inline-block mt-2 text-[14px] underline">
+            Auf der Gehölzkarte eintragen
+          </Link>
+        )}
       </section>
 
       {geschwister.length > 0 && (
