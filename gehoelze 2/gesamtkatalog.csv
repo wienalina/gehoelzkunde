@@ -1,0 +1,552 @@
+name,gattung,epitheton,familie,familie_quelle,gruppe,ebene,pruefungsrelevant,in_vorlesungsliste,in_skript,in_beschreibungs_pdf,in_tsp_fuehrer,deutsch,heimisch,vorlesungseinheit,skript_seiten,namensbeleg,datenlage,master_namen,vorlesung_name,synonym_skript,ocr_varianten,name_pruefen,verdacht_ocr_fehler
+Actinidia arguta,Actinidia,arguta,Actinidiaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Amur-Strahlengriffel (Bayernkiwi),,,130,nur_ocr,duenn,,,,,ja,nein
+Actinidia deliciosa,Actinidia,deliciosa,Actinidiaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,130,nur_ocr,duenn,,,,,ja,nein
+Actinidia kolomikta,Actinidia,kolomikta,Actinidiaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kolomikta-Strahlengriffel,,,130,nur_ocr,duenn,,,,,ja,nein
+Cotinus coggygria,Cotinus,coggygria,Anacardiaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Perückenstrauch,ja,36,113,quelle_sauber,vollstaendig,Cotinus coggygria,Cotinus Coggygria,,,nein,nein
+Rhus glabra,Rhus,glabra,Anacardiaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Scharlach-Sumach =,,,113,nur_ocr,duenn,,,,,ja,nein
+Rhus typhina,Rhus,typhina,Anacardiaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Hirschkolben Sumach,,37,113,quelle_sauber,vollstaendig,Rhus typhina,Rhus Typhina,,,nein,nein
+Vinca major,Vinca,major,Apocynaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Großes Immergrün,,46,144,quelle_sauber,vollstaendig,Vinca major,Vinca Major,,,nein,nein
+Vinca minor,Vinca,minor,Apocynaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Kleines Immergrün,ja,46,144,quelle_sauber,vollstaendig,Vinca minor,Vinca Minor,,,nein,nein
+Ilex aquifolium,Ilex,aquifolium,Aquifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Stechhülse,ja,39,119,quelle_sauber,vollstaendig,Ilex aquifolium,Ilex Aquifolium,,,nein,nein
+Ilex verticillata,Ilex,verticillata,Aquifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Rote Winterbeere | ) i) 5 =,,,120,nur_ocr,duenn,,,,,ja,nein
+Hedera colchica,Hedera,colchica,Araliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kolchischer Efeu,,,118,nur_ocr,duenn,,,,,ja,nein
+Hedera helis,Hedera,helis,Araliaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Efeu,ja,39,,quelle_sauber,duenn,,Hedera Helis,,,nein,nein
+Hedera helix,Hedera,helix,Araliaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,,,,118,quelle_sauber,teilweise,Hedera helix,,,,nein,nein
+Araucaria araucana,Araucaria,araucana,Araucariaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Chiletanne,,9,22,quelle_sauber,vollstaendig,Araucaria araucana,Araucaria Araucana,,,nein,nein
+Trachycarpus fortunei,Trachycarpus,fortunei,Arecaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Trachycarpus fortunei,,,,nein,nein
+Aristolochia macrophylla,Aristolochia,macrophylla,Aristolochiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Amerikanische Pfeifenwinde,,11,28,quelle_sauber,teilweise,,Aristolohia Macrophylla,,,nein,nein
+Berberis julianae,Berberis,julianae,Berberidaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Julians Berberitze,,12,,quelle_sauber,duenn,,Berberis Julianae,,,nein,nein
+Berberis ottawensis,Berberis,ottawensis,Berberidaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Berberis X Ottawensis Superba,,12,,quelle_sauber,duenn,,Berberis X Ottawensis Superba,,,nein,nein
+Berberis thunbergii,Berberis,thunbergii,Berberidaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Thunbergs Berberitze,,12,32,quelle_sauber,vollstaendig,Berberis thunbergii,Berberis Thunbergii,,,nein,nein
+Berberis vulgaris,Berberis,vulgaris,Berberidaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gewöhnliche Berberitze,ja,12,32,quelle_sauber,teilweise,,Berberis Vulgaris,,,nein,nein
+Mahonia aquifolium,Mahonia,aquifolium,Berberidaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Gewöhnliche Mahonie,,12,,quelle_sauber,duenn,,Mahonia Aquifolium,,,nein,nein
+Mahonia media,Mahonia,media,Berberidaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Mahonia X Media,,12,,quelle_sauber,duenn,,Mahonia X Media,,,nein,nein
+Alnus cordata,Alnus,cordata,Betulaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Italienische Erle,,14,41,quelle_sauber,teilweise,,Alnus Cordata,,,nein,nein
+Alnus glutinosa,Alnus,glutinosa,Betulaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Schwarz Erle,ja,14,40,quelle_sauber,vollstaendig,Alnus glutinosa,Alnus Glutinosa,,,nein,nein
+Alnus incana,Alnus,incana,Betulaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,40,quelle_sauber,duenn,Alnus incana,,,,nein,nein
+Alnus viridis,Alnus,viridis,Betulaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Grün Erle,ja,14,41,quelle_sauber,vollstaendig,Alnus viridis,Alnus VIridis,,,nein,nein
+Betula albosinensis,Betula,albosinensis,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Kupfer-Birke, Chin. Birke PN",,,38,nur_ocr,duenn,,,,,ja,nein
+Betula ermanii,Betula,ermanii,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Ermans-Birke, Gold-Birke >",,,38,nur_ocr,duenn,,,,,ja,nein
+Betula humilis,Betula,humilis,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,39,nur_ocr,duenn,,,,utilis,ja,nein
+Betula nana,Betula,nana,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,39,nur_ocr,duenn,,,,,ja,nein
+Betula nigra,Betula,nigra,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Schwarz-Birke, Fluss-Birke",,,39,nur_ocr,duenn,,,,,ja,nein
+Betula papyrifera,Betula,papyrifera,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Amerikanische Papier-Birke,,,37,nur_ocr,duenn,,,,,ja,nein
+Betula pendula,Betula,pendula,Betulaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Birke,ja,14,38,quelle_sauber,vollstaendig,Betula pendula,Betula Pendula,,,nein,nein
+Betula platyphylia,Betula,platyphylia,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Mandschurische Birke,,,37,nur_ocr,duenn,,,,,ja,nein
+Betula pubescens,Betula,pubescens,Betulaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,38,quelle_sauber,duenn,Betula pubescens,,,,nein,nein
+Carpinus betulus,Carpinus,betulus,Betulaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Hainbuche,ja,15,43,quelle_sauber,vollstaendig,Carpinus betulus,Carpinus Betulus,,,nein,nein
+Carpinus carpinifolia,Carpinus,carpinifolia,Betulaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Hopfenbuche,ja,15,,quelle_sauber,duenn,,Carpinus Carpinifolia,,,nein,nein
+Corylus avellana,Corylus,avellana,Betulaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Haselnuss,ja,15,42,quelle_sauber,vollstaendig,Corylus avellana,Corylus Avellana,,,nein,nein
+Corylus colurna,Corylus,colurna,Betulaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Baumhasel,,15,42,quelle_sauber,teilweise,,Corylus Colurna,,,nein,nein
+Corylus maxima,Corylus,maxima,Betulaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Lamberts Hasel,,15,42,quelle_sauber,teilweise,,Corylus Maxima,,,nein,nein
+Ostrya carpinifolia,Ostrya,carpinifolia,Betulaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,43,quelle_sauber,duenn,,,,,nein,nein
+Campsis grandiflora,Campsis,grandiflora,Bignoniaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Asiatische Trompetenwinde,,,161,nur_ocr,duenn,,,,,ja,nein
+Campsis radicans,Campsis,radicans,Bignoniaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Amerikanische Trompetenwinde,,53,161,quelle_sauber,teilweise,,Campsis Radicans,,,nein,nein
+Catalpa bignonioides,Catalpa,bignonioides,Bignoniaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,ja,ja,Gewöhnlicher Trompetenbaum,,53,,quelle_sauber,teilweise,Catalpa bignonioides,Catalpa Bignoioides,,,nein,nein
+Catalpa ovata,Catalpa,ovata,Bignoniaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Kleinblütiger Trompetenbaum,,53,,quelle_sauber,duenn,,Catalpa Ovata,,,nein,nein
+Catalpa speciosa,Catalpa,speciosa,Bignoniaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,160,quelle_sauber,duenn,Catalpa speciosa,,,,nein,nein
+Paulownia tomentosa,Paulownia,tomentosa,Bignoniaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,ja,ja,Blauglockenbaum,,52,,quelle_sauber,teilweise,Paulownia tomentosa,Paulonia Tomentosa,,,nein,nein
+Buxus microphylla,Buxus,microphylla,Buxaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kleinblättriger Buchs y,,,126,nur_ocr,duenn,,,,,ja,nein
+Buxus sempervirens,Buxus,sempervirens,Buxaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gewöhnlicher Buchs,ja,42,126,quelle_sauber,vollstaendig,Buxus sempervirens,Buxus Sempervirens,,,nein,nein
+Pachysandra terminalis,Pachysandra,terminalis,Buxaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Japanische Pachysandra, Ysander",,42,126,quelle_sauber,teilweise,,Pachysandra Terminalis,,,nein,nein
+Calycanthus floridus,Calycanthus,floridus,Calycanthaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Karolina Nelkenpfeffer -Gewürzstrauch,,10,26,quelle_sauber,teilweise,,Calycanthus Floridus,,,nein,nein
+Chimonanthus praecox,Chimonanthus,praecox,Calycanthaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Winterblüte,,10,26,quelle_sauber,teilweise,,Chimonathus Praecox,,,nein,nein
+Heptacodium miconioides,Heptacodium,miconioides,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,7 Söhne des Himmels Strauch,,37,114,quelle_sauber,teilweise,,Hetacodium Miconioides,,,nein,nein
+Kolkwitzia amabilis,Kolkwitzia,amabilis,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kolkwitzie,,48,149,quelle_sauber,teilweise,,Kolkwitzia Amabilis,,,nein,nein
+Lonicera caerulea,Lonicera,caerulea,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Blaue Heckenkirsche,ja,49,149,quelle_sauber,teilweise,,Lonicera Caerulea,,,nein,nein
+Lonicera caprdobum,Lonicera,caprdobum,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,151,nur_ocr,duenn,,,,,ja,nein
+Lonicera caprifolium,Lonicera,caprifolium,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Echtes Geißblatt,ja,49,151,quelle_sauber,teilweise,,Lonicera Caprifolium,,,nein,nein
+Lonicera fragranissimaa,Lonicera,fragranissimaa,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,151,nur_ocr,duenn,,,,,ja,nein
+Lonicera henryi,Lonicera,henryi,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Immergrünes schling.Geißblatt,,50,152,quelle_sauber,teilweise,,Lonicera Henryi,,,nein,nein
+Lonicera nitida,Lonicera,nitida,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Immergrü. Strauch Heckenkirsche,,49,150,quelle_sauber,teilweise,,Lonicera Nitida,,,nein,nein
+Lonicera periclymenum,Lonicera,periclymenum,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,151,nur_ocr,duenn,,,,,ja,nein
+Lonicera pileata,Lonicera,pileata,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Immergrüne kriech.Heckenkirsche,,49,151,quelle_sauber,teilweise,,Lonicera Pileata,,,nein,nein
+Lonicera purpusii,Lonicera,purpusii,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Wintergrüne Duftheckenkirsche,,49,,quelle_sauber,duenn,,Lonicera x Purpusii,,,nein,nein
+Lonicera tatarica,Lonicera,tatarica,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Tartarische Heckenkirsche,,49,,quelle_sauber,duenn,,Lonicera Tatarica,,,nein,nein
+Lonicera xylosteum,Lonicera,xylosteum,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gemeine Heckenkirsche,ja,48,149,quelle_sauber,teilweise,,Lonicera Xylosteum,,,nein,nein
+Sambucus nigra,Sambucus,nigra,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Schwarzer Holunder,ja,47,145,quelle_sauber,vollstaendig,Sambucus nigra,Sambucus Nigra,,,nein,nein
+Sambucus racemosa,Sambucus,racemosa,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,145,quelle_sauber,duenn,Sambucus racemosa,,,,nein,nein
+Symphoricarpos albus,Symphoricarpos,albus,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gemeine Schneebeere,,50,152,quelle_sauber,teilweise,,Symphoricarpos Albus,,,nein,nein
+Symphoricarpos chenaultii,Symphoricarpos,chenaultii,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Bastard Schneebeere,,50,,quelle_sauber,duenn,,Symphoricarpos X Chenaultii,,,nein,nein
+Symphoricarpos orbiculatus,Symphoricarpos,orbiculatus,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,152,nur_ocr,duenn,,,,,ja,nein
+Viburnum bodnantense,Viburnum,bodnantense,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Rosa Duftschneeball,,48,,quelle_sauber,duenn,,Viburnum X Bodnantense,,,nein,nein
+Viburnum x burkwoodii,Viburnum,burkwoodii,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,nein,nein,Osterschneeball,,48,,quelle_sauber,duenn,Viburnum x burkwoodii,Viburnum X Burkwoodii,,,nein,nein
+Viburnum carlesii,Viburnum,carlesii,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Koreanischer Schneeball,,47,146,quelle_sauber,teilweise,,Viburnum Carlesii,,,nein,nein
+Viburnum farreri,Viburnum,farreri,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Duftender Schneeball,,47,147,quelle_sauber,teilweise,,Viburnum Farreri,,,nein,nein
+Viburnum lantana,Viburnum,lantana,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Wolliger Schneeball,ja,47,146,quelle_sauber,vollstaendig,Viburnum lantana,Viburnum Lantana,,,nein,nein
+Viburnum opulus,Viburnum,opulus,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Schneeball,ja,47,146,quelle_sauber,vollstaendig,Viburnum opulus,Viburnum Opulus,,,nein,nein
+Viburnum plicatum,Viburnum,plicatum,Caprifoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanischer Schneeball,,47,147,quelle_sauber,teilweise,,Viburnum Plicatum,,,nein,nein
+Viburnum x pragense,Viburnum,pragense,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,ja,ja,Prager Schneeball,,48,,quelle_sauber,teilweise,Viburnum x pragense,Viburnum X Pragense,,,nein,nein
+Viburnum rhytidophyllum,Viburnum,rhytidophyllum,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Runzelblättriger Schneeball,,48,147,quelle_sauber,vollstaendig,Viburnum rhytidophyllum,Viburnum Rhytidophyllum,,,nein,nein
+Weigela floribunda,Weigela,floribunda,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Reichblütige Weigelie,,,148,nur_ocr,duenn,,,,flonda,ja,nein
+Weigela japonica,Weigela,japonica,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,148,nur_ocr,duenn,,,,,ja,nein
+Weigela praecox,Weigela,praecox,Caprifoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Frühblühende Weigelie,,,148,nur_ocr,duenn,,,,,ja,ja
+Weigelia sp.,Weigela,sp,Caprifoliaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,nein,ja,Weigelie,,48,,quelle_sauber,duenn,Weigelia sp.,Weigelia Sp,,,nein,nein
+Celastrus orbiculatus,Celastrus,orbiculatus,Celastraceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Rundblättriger Baumwürger ee sail KY, ",,,122,nur_ocr,duenn,,,,,ja,nein
+Euonymus alata,Euonymus,alata,Celastraceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Flügeliger Spindelstrauch,,40,121,quelle_sauber,teilweise,,Euonymus Alata,,alatus,nein,nein
+Euonymus europaea,Euonymus,europaea,Celastraceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Pfaffenhütchen,ja,39,,quelle_sauber,duenn,,Euonymus Europaea,,,nein,nein
+Euonymus europaeus,Euonymus,europaeus,Celastraceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,,,,120,quelle_sauber,teilweise,Euonymus europaeus,,,europsea,nein,nein
+Euonymus fortunei,Euonymus,fortunei,Celastraceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Kletter Spindelstrauch,,40,121,quelle_sauber,vollstaendig,Euonymus fortunei,Euonymus Fortunei,,,nein,nein
+Euonymus japonica,Euonymus,japonica,Celastraceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Japanischer Spindelstrauch,,40,121,quelle_sauber,duenn,,Euonymus Japonica,,japonicus,nein,nein
+Euonymus latifolius,Euonymus,latifolius,Celastraceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,120,nur_ocr,duenn,,,,,ja,nein
+Euonymus planipes,Euonymus,planipes,Celastraceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Großfrüchtiger-Spindelstrauch BaAyres ,,,120,nur_ocr,duenn,,,,,ja,ja
+Euonymus verrucosa,Euonymus,verrucosa,Celastraceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Warziger Spindelstrauch,ja,39,121,quelle_sauber,teilweise,,Euonymus Verrucosa,,,nein,nein
+Cephalotaxus harringtonia,Cephalotaxus,harringtonia,Cephalotaxaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Harringtons Kopfeibe,,9,22,quelle_sauber,teilweise,,Cephalotaxus Harringtonia,,,nein,nein
+Cercidiphyllum japonicum,Cercidiphyllum,japonicum,Cercidiphyllaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Japanischer Kuchenbaum,,10,27,quelle_sauber,vollstaendig,Cercidiphyllum japonicum,Cercidiphyllum Japonicum,,,nein,nein
+Aucuba japonica,Aucuba,japonica,Cornaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanische Aukube,,38,117,quelle_sauber,teilweise,,Aucuba Japonica,,,nein,nein
+Cornus alba,Cornus,alba,Cornaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Tatarischer Hartriegel,,38,115,quelle_sauber,vollstaendig,Cornus alba,Cornus Alba susp.Stolonifera,,,nein,nein
+Cornus alternifolia,Cornus,alternifolia,Cornaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Wechselblättriger Hartriegel DE,,,116,nur_ocr,duenn,,,,,ja,nein
+Cornus canadensis,Cornus,canadensis,Cornaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kanadischer oder Teppich-Hartriegel,,,117,nur_ocr,duenn,,,,,ja,nein
+Cornus controversa,Cornus,controversa,Cornaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Pagoden Hartriegel,,38,116,quelle_sauber,vollstaendig,Cornus controversa,Cornus Controversa,,,nein,nein
+Cornus florida,Cornus,florida,Cornaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Blumen-Hartriegel (Dogwood),,,116,quelle_sauber,duenn,Cornus florida,,,,nein,nein
+Cornus hovsa,Cornus,hovsa,Cornaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,117,nur_ocr,duenn,,,,,ja,nein
+Cornus kousa,Cornus,kousa,Cornaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Japanischer Blumen Hartriegel,,38,117,quelle_sauber,vollstaendig,Cornus kousa,Cornus Kousa,,,nein,nein
+Cornus mas,Cornus,mas,Cornaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,nein,nein,"Kornelkirsche, Direndelstrauch",ja,38,,quelle_sauber,duenn,Cornus mas,Cornus Mas,,,nein,nein
+Cornus nuttallii,Cornus,nuttallii,Cornaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Westamerikanischer Blumen-Hartnegel,,,117,nur_ocr,duenn,,,,,ja,nein
+Cornus nuttate,Cornus,nuttate,Cornaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,117,nur_ocr,duenn,,,,,ja,ja
+Cornus officinalis,Cornus,officinalis,Cornaceae,skript,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Cornus officinalis,,,,nein,nein
+Cornus sanguinea,Cornus,sanguinea,Cornaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Roter Hartriegel,ja,37,115,quelle_sauber,vollstaendig,Cornus sanguinea,Cornus Sanguinea,,,nein,nein
+Calocedrus decurrens,Calocedrus,decurrens,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Weihrauchzeder,,8,19,quelle_sauber,vollstaendig,Calocedrus decurrens,Calocedrus Decurrens,,,nein,nein
+Chamaecyparis lawsoniana,Chamaecyparis,lawsoniana,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,ja,ja,Lawson Scheinzypresse,,6,,quelle_sauber,teilweise,Chamaecyparis lawsoniana,Camaecyparis Lawsoniana,,,nein,nein
+Chamaecyparis obtusa,Chamaecyparis,obtusa,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,ja,ja,Muschelzypresse,,7,,quelle_sauber,teilweise,Chamaecyparis obtusa,Camaecyparis Obtusa,,,nein,nein
+Chamaecyparis pisifera,Chamaecyparis,pisifera,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,ja,ja,Sawara Scheinzypresse,,6,,quelle_sauber,teilweise,Chamaecyparis pisifera,Camaecyparis Pisifera,,,nein,nein
+Chamaecyparis thyoides,Chamaecyparis,thyoides,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Chamaecyparis thyoides,,,,nein,nein
+Cryptomeria japonica,Cryptomeria,japonica,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Japanische Sicheltanne,,6,15,quelle_sauber,vollstaendig,Cryptomeria japonica,Cryptomeria japonica,,,nein,nein
+Cunninghamia lanceolata,Cunninghamia,lanceolata,Cupressaceae,extern,Nadelgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Cunninghamia lanceolata,,,,nein,nein
+Cupressocyparis leylandii,Cupressocyparis,leylandii,Cupressaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Riesenzypresse,,6,,quelle_sauber,duenn,,Cupressocyparis Leylandii,,,nein,nein
+Cupressus arizonica,Cupressus,arizonica,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,,,,16,quelle_sauber,duenn,Cupressus arizonica,,,arizorics,nein,nein
+Cupressus sempervirens,Cupressus,sempervirens,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,nein,ja,Mittelmeerzypresse,,6,16,quelle_sauber,teilweise,Cupressus sempervirens,Cupressus sempervirens,,,nein,nein
+Juniperus chinensis,Juniperus,chinensis,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,Chinesischer Wacholder - 05 E on,,,19,quelle_sauber,duenn,Juniperus chinensis,,,,nein,nein
+Juniperus communis,Juniperus,communis,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Wacholder,ja,8,18,quelle_sauber,vollstaendig,Juniperus communis,Juniperus Communis,,,nein,nein
+Juniperus horizontalis,Juniperus,horizontalis,Cupressaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,N-Amerikanischer Knech-Wachholder RE,,,19,nur_ocr,duenn,,,,,ja,nein
+Juniperus sabina,Juniperus,sabina,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,,,,18,quelle_sauber,duenn,Juniperus sabina,,,,nein,nein
+Juniperus squamata,Juniperus,squamata,Cupressaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Schuppen-Wacholder ee. NP,",,,19,nur_ocr,duenn,,,,,ja,nein
+Juniperus virginiana,Juniperus,virginiana,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Virginischer Wacholder,,8,18,quelle_sauber,vollstaendig,Juniperus virginiana,Juniperus Virginiana,,,nein,nein
+Metasequoia,Metasequoia,,Cupressaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Urwelt Mammutbaum,,5,,quelle_sauber,duenn,,Metasequoia,,,nein,nein
+Metasequoia glyptostroboides,Metasequoia,glyptostroboides,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,ja,ja,"Urwelt-Mammutbaum, Chin. Rotholz VY ]",,,14,quelle_sauber,teilweise,Metasequoia glyptostroboides,,,,nein,nein
+Platycladus orientalis,Platycladus,orientalis,Cupressaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Morgenländ.Lebensbaum,,7,17,quelle_sauber,teilweise,,Platycladus Orientalis,,,nein,nein
+Sequoia sempervirens,Sequoia,sempervirens,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,ja,ja,"Küsten-Mammutbaum, Redwood 2 .",,,15,quelle_sauber,teilweise,Sequoia sempervirens,,,,nein,nein
+Sequoiadendron,Sequoiadendron,,Cupressaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Gebirgs Mammutbaum,,5,,quelle_sauber,duenn,,Sequoiadendron,,,nein,nein
+Sequoiadendron giganteum,Sequoiadendron,giganteum,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,ja,ja,Gebirgs-Mammutbaum -f,,,15,quelle_sauber,teilweise,Sequoiadendron giganteum,,,,nein,nein
+Taxodium distichum,Taxodium,distichum,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,Sumpfzypresse = 4) I,,,14,quelle_sauber,duenn,Taxodium distichum,,,,nein,nein
+Thuja occidentalis,Thuja,occidentalis,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,ja,ja,Abendländ.Lebensbaum,,7,17,quelle_sauber,teilweise,Thuja occidentalis,Thuja Occidentalis,,orientalis,nein,nein
+Thuja plicata,Thuja,plicata,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,ja,nein,Riesen Lebensbaum,,7,,quelle_sauber,teilweise,Thuja plicata,Thuja Plicata,,,nein,nein
+Thujopsis dolabrata,Thujopsis,dolabrata,Cupressaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Hiba Lebensbaum,,7,17,quelle_sauber,teilweise,,Thujopsis Dolabrata,,,nein,nein
+Xanthocypris,Xanthocyparis,,Cupressaceae,skript,Nadelgehoelz,pruefung,ja,ja,nein,nein,nein,Goldzypresse,,7,,quelle_sauber,duenn,Xanthocypris,Xanthocypris,,,nein,nein
+Davidia involucrata,Davidia,involucrata,Davidiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Taubenbaum, Taschentuchbaum",,39,118,quelle_sauber,teilweise,,Davidia Involucrata,,,nein,nein
+Diospyros kaki,Diospyros,kaki,Ebenaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Diospyros kaki,,,,nein,nein
+Elaeagnus angustifolia,Elaeagnus,angustifolia,Elaeagnaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Schmalblättrige Ölweide,,,103,quelle_sauber,duenn,Elaeagnus angustifolia,,,,nein,nein
+Elaeagnus commutata,Elaeagnus,commutata,Elaeagnaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Silber-Olweide,,,103,nur_ocr,duenn,,,,,ja,nein
+Elaeagnus pungens,Elaeagnus,pungens,Elaeagnaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Dornige Ölweide ( | us,,,103,nur_ocr,duenn,,,,,ja,ja
+Hippophae rhamnoides,Hippophae,rhamnoides,Elaeagnaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,nein,ja,Gemeiner Sanddorn,ja,32,103,quelle_sauber,teilweise,Hippophae rhamnoides,Hippophae Ramnoides,,,nein,nein
+Arbutus unedo,Arbutus,unedo,Ericaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Arbutus unedo,,,,nein,nein
+Erica carnea,Erica,carnea,Ericaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Schneeheide,ja,46,143,quelle_sauber,teilweise,,Erica Carnea,,,nein,nein
+Erica cinerea,Erica,cinerea,Ericaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,143,nur_ocr,duenn,,,,,ja,nein
+Erica tetralix,Erica,tetralix,Ericaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,143,nur_ocr,duenn,,,,,ja,ja
+Pieris floribunda,Pieris,floribunda,Ericaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Amerik. Lavendelheide,,,141,nur_ocr,duenn,,,,,ja,nein
+Pieris japonica,Pieris,japonica,Ericaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanische Lavendelheide,,46,141,quelle_sauber,teilweise,,Pieris Japonica,,,nein,nein
+Rhododendron hirsutum,Rhododendron,hirsutum,Ericaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Behaarte Alpenrose,ja,45,,quelle_sauber,duenn,,Rhododendron Hirsutum,,,nein,nein
+Rhododendron hybriden,Rhododendron,hybriden,Ericaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Azaleen,,45,,quelle_sauber,duenn,,Rhododendron Hybriden,,,nein,nein
+Rhododendron ponticum,Rhododendron,ponticum,Ericaceae,skript,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Rhododendron ponticum,,,,nein,nein
+Eucommia ulmoides,Eucommia,ulmoides,Eucommiaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Guttaperchabaum ‘ YAY,,,55,nur_ocr,duenn,,,,,ja,nein
+Albizia julibrissin,Albizia,julibrissin,Fabaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Albizia julibrissin,,,,nein,nein
+Amorpha fruticosa,Amorpha,fruticosa,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Scheinindigo,,32,102,quelle_sauber,teilweise,,Amorpha Fruticosa,,,nein,nein
+Caragana arborescens,Caragana,arborescens,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gemeiner Erbsenstrauch,,31,98,quelle_sauber,teilweise,,Caragana Arborescens,,,nein,nein
+Cercis canadensis,Cercis,canadensis,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kanadischer Judasbaum,,,94,nur_ocr,duenn,,,,,ja,nein
+Cercis siliquastrum,Cercis,siliquastrum,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Judasbaum,,30,94,quelle_sauber,vollstaendig,Cercis siliquastrum,Cercis Siliquastrum,,,nein,nein
+Chamaecytisus austriacus,Chamaecytisus,austriacus,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Österreichischer Geissklee,ja,31,100,quelle_sauber,teilweise,,Chamaecytisus Austriacus,,,nein,nein
+Chamaecytisus purpureus,Chamaecytisus,purpureus,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,101,nur_ocr,duenn,,,,,ja,nein
+Cladrastis kentukea,Cladrastis,kentukea,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Amerikanisches Gelbholz,,31,97,quelle_sauber,vollstaendig,Cladrastis kentukea,Cladrastis Kentukea,,,nein,nein
+Colutea arborescens,Colutea,arborescens,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gewöhnlicher Blasenstrauch,,31,98,quelle_sauber,teilweise,,Colutea Arborescens,,,nein,nein
+Cytisus decumbens,Cytisus,decumbens,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,100,nur_ocr,duenn,,,,,ja,ja
+Cytisus scoparius,Cytisus,scoparius,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Gartenformen Edelginster,,,99,nur_ocr,duenn,,,,,ja,nein
+Genista pilosa,Genista,pilosa,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,101,nur_ocr,duenn,,,,,ja,nein
+Genista radiata,Genista,radiata,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,101,nur_ocr,duenn,,,,,ja,nein
+Genista tinctoria,Genista,tinctoria,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,101,nur_ocr,duenn,,,,,ja,nein
+Gleditsia,Gleditsia,,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Lederhülsenbaum,,30,,quelle_sauber,duenn,,Gleditsia,,,nein,nein
+Gleditsia triacanthos,Gleditsia,triacanthos,Fabaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,Amerikanischer Lederhülsenbaum [ (Ay,,,95,quelle_sauber,teilweise,Gleditsia triacanthos | Gleditsia triacanthos 'Sunburst',,,,nein,nein
+Gymnocladus dioicus,Gymnocladus,dioicus,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Geweihbaum,,30,94,quelle_sauber,vollstaendig,Gymnocladus dioicus,Gymnocladus Dioicus,,,nein,nein
+Hippocrepis emerus,Hippocrepis,emerus,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,98,nur_ocr,duenn,,,,,ja,nein
+Laburnum alpinum,Laburnum,alpinum,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Alpen Goldregen,ja,31,97,quelle_sauber,teilweise,,Laburnum Alpinum,,,nein,nein
+Laburnum anagyroides,Laburnum,anagyroides,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Goldregen,ja,31,97,quelle_sauber,vollstaendig,Laburnum anagyroides,Laburnum Anagyroides,,,nein,nein
+Lespedeza thunbergii,Lespedeza,thunbergii,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Buschklee,,31,102,quelle_sauber,teilweise,,Lespedeza Thunbergii,,,nein,nein
+Robinia,Robinia,,Fabaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,"Robinie, Scheinakazie",,30,,quelle_sauber,duenn,,Robina,,,nein,nein
+Robinia hispida,Robinia,hispida,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Borstige Robinie,,,96,nur_ocr,duenn,,,,,ja,nein
+Robinia pseudoacacia,Robinia,pseudoacacia,Fabaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,"Gemeine Robinie, Scheinakazie",,,96,quelle_sauber,teilweise,Robinia pseudoacacia,,,,nein,nein
+Spartium junceum,Spartium,junceum,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Binsenginster,,,99,nur_ocr,duenn,,,,,ja,nein
+Styphnolobium japonicum,Styphnolobium,japonicum,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,nein,ja,Japanischer Schnurbaum,,,96,quelle_sauber,teilweise,Styphnolobium japonicum | Sophora japonica,Styphnolobium Japonica,,,nein,nein
+Wisteria floribunda,Wisteria,floribunda,Fabaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Japanische Wistarie,,32,102,quelle_sauber,vollstaendig,Wisteria floribunda,Wisteria Floribunda,,,nein,nein
+Wisteria sinensis,Wisteria,sinensis,Fabaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Chinesische Wistarie An,,,102,nur_ocr,duenn,,,,,ja,nein
+Castanea sativa,Castanea,sativa,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Maroni,,17,"47,48",quelle_sauber,vollstaendig,Castanea sativa,Castanea Sativa,,,nein,nein
+Fagus orientalis,Fagus,orientalis,Fagaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Orientalische Buche,,16,44,quelle_sauber,teilweise,,Fagus Orientalis,,,nein,nein
+Fagus sylvatica,Fagus,sylvatica,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Rotbuche,ja,16,"43,44",quelle_sauber,vollstaendig,Fagus sylvatica,Fagus Sylvatica,,,nein,nein
+Nothofagus antarctica,Nothofagus,antarctica,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,"Südbuche, Scheinbuche",,,48,quelle_sauber,duenn,Nothofagus antarctica,,,,nein,nein
+Quercus bicolor,Quercus,bicolor,Fagaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Zweifarbige-Eiche WY, 4",,,47,nur_ocr,duenn,,,,,ja,ja
+Quercus cerris,Quercus,cerris,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Zerr Eiche,,16,45,quelle_sauber,vollstaendig,Quercus cerris,Quercus Cerris,,,nein,nein
+Quercus coccinea,Quercus,coccinea,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Scharlach-Eiche Quercus palustris,,,46,quelle_sauber,duenn,Quercus coccinea,,,,nein,nein
+Quercus frainetto,Quercus,frainetto,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Ungarische Eiche ER Bi,,,45,quelle_sauber,duenn,Quercus frainetto,,,,nein,nein
+Quercus ilex,Quercus,ilex,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Stein-Eiche | i,,,47,quelle_sauber,duenn,Quercus ilex,,,,nein,nein
+Quercus imbricaria,Quercus,imbricaria,Fagaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Schindel- Eiche al SOP,,,46,nur_ocr,duenn,,,,,ja,nein
+Quercus macranthera,Quercus,macranthera,Fagaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Persische Eiche Zr,,,47,nur_ocr,duenn,,,,macranihers,ja,nein
+Quercus palustris,Quercus,palustris,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Sumpf-Eiche NW,,,46,quelle_sauber,duenn,Quercus palustris,,,,nein,nein
+Quercus petraea,Quercus,petraea,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,nein,ja,Trauben Eiche,ja,16,45,quelle_sauber,teilweise,Quercus petraea,Quercus Petraea,,,nein,nein
+Quercus pontica,Quercus,pontica,Fagaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Pontische Eiche QS EY,,,47,nur_ocr,duenn,,,,,ja,nein
+Quercus pubescens,Quercus,pubescens,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,46,quelle_sauber,duenn,Quercus pubescens,,,,nein,nein
+Quercus robur,Quercus,robur,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Stiel Eiche,ja,16,45,quelle_sauber,vollstaendig,Quercus robur,Quercus Robur,,,nein,nein
+Quercus rubra,Quercus,rubra,Fagaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Rot Eiche,,16,46,quelle_sauber,vollstaendig,Quercus rubra,Quercus Rubra,,,nein,nein
+Quercus suber,Quercus,suber,Fagaceae,skript,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Quercus suber,,,,nein,nein
+Quercus turneri,Quercus,turneri,Fagaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Wintergrüne Eiche,,17,,quelle_sauber,duenn,,Quercus X Turneri,,,nein,nein
+Ginkgo biloba,Ginkgo,biloba,Ginkgoaceae,skript,Ginkgo,pruefung,ja,ja,ja,ja,ja,Ginkgo,,9,23,quelle_sauber,vollstaendig,Ginkgo biloba,Gingko Biloba,,,nein,nein
+Ribes alpinum,Ribes,alpinum,Grossulariaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Alpen Johannisbeere,,20,58,quelle_sauber,teilweise,,Ribes Alpinum,,,nein,nein
+Ribes aureum,Ribes,aureum,Grossulariaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gold Johannesbeere,,20,58,quelle_sauber,teilweise,,Ribes Aureum,,,nein,nein
+Ribes nigrum,Ribes,nigrum,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Schwarze Johannisbeere Sy \ NR (A,,,57,nur_ocr,duenn,,,,,ja,nein
+Ribes petraeum,Ribes,petraeum,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,57,nur_ocr,duenn,,,,,ja,nein
+Ribes rubrum,Ribes,rubrum,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Rote Johannisbeere i,,,57,nur_ocr,duenn,,,,,ja,nein
+Ribes sanguineum,Ribes,sanguineum,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Blut-Johannisbeere ‘/ An),,,58,nur_ocr,duenn,,,,,ja,nein
+Ribes uva-erisp,Ribes,uva-erisp,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,58,nur_ocr,duenn,,,,,ja,ja
+Ribes wactispa,Ribes,wactispa,Grossulariaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,58,nur_ocr,duenn,,,,,ja,nein
+Corylopsis pauciflora,Corylopsis,pauciflora,Hamamelidaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Wenigblütige Scheinhasel se cooly “a,,,34,nur_ocr,duenn,,,,,ja,nein
+Corylopsis spicata,Corylopsis,spicata,Hamamelidaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Hohe Scheinhasel i,,,34,nur_ocr,duenn,,,,,ja,nein
+Hamamelis japonica,Hamamelis,japonica,Hamamelidaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanische Zaubernuss,,12,33,quelle_sauber,teilweise,,Hamamelis Japonica,,,nein,nein
+Hamamelis mollis,Hamamelis,mollis,Hamamelidaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,33,nur_ocr,duenn,,,,,ja,nein
+Hamamelis virginiana,Hamamelis,virginiana,Hamamelidaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Herbstblüh.Zaubernuss,,12,33,quelle_sauber,teilweise,,Hamamelis Virginiana,,,nein,nein
+Liquidambar orientalis,Liquidambar,orientalis,Hamamelidaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Onentalischer Amberbaum,,,35,nur_ocr,duenn,,,,,ja,nein
+Liquidambar styraciflua,Liquidambar,styraciflua,Hamamelidaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Amerikan.Amberbaum,,13,35,quelle_sauber,vollstaendig,Liquidambar styraciflua,Liquidamber Styraciflua,,,nein,nein
+Parrotia persica,Parrotia,persica,Hamamelidaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Eisenholzbaum,,13,35,quelle_sauber,vollstaendig,Parrotia persica,Parrotia Persica,,,nein,nein
+Deutzia crenata,Deutzia,crenata,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Raue Deutzie,,21,60,quelle_sauber,teilweise,,Deutzia Crenata,,,nein,nein
+Deutzia gracilis,Deutzia,gracilis,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Zierliche Deutzie,,21,61,quelle_sauber,teilweise,,Deutzia Gracilis,,,nein,nein
+Hydrangea,Hydrangea,,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Kletter Hortensie,,21,,quelle_sauber,duenn,,Hydrangea SSP.Anomala,,,nein,nein
+Hydrangea aborescens,Hydrangea,aborescens,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,62,quelle_sauber,duenn,,,,,nein,nein
+Hydrangea anomala,Hydrangea,anomala,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,63,nur_ocr,duenn,,,,,ja,nein
+Hydrangea aspera,Hydrangea,aspera,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,63,nur_ocr,duenn,,,,,ja,nein
+Hydrangea macrophylla,Hydrangea,macrophylla,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gartenhortensie,,21,62,quelle_sauber,teilweise,,Hydrangea Macrophylla,,,nein,nein
+Hydrangea paniculata,Hydrangea,paniculata,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Rispen-Hortensie ],,,62,nur_ocr,duenn,,,,,ja,nein
+Hydrangea quercifolia,Hydrangea,quercifolia,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Eichenblattnge Hortensie Ge,,,63,nur_ocr,duenn,,,,,ja,nein
+Philadelphus coronarius,Philadelphus,coronarius,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Europäischer Pfeifenstrauch,ja,20,59,quelle_sauber,teilweise,,Philadelphus Coronarius,,,nein,nein
+Philadelphus inodorus,Philadelphus,inodorus,Hydrangeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Duftloser Pfeifenstrauch Pi,,,59,nur_ocr,duenn,,,,,ja,nein
+Philadelphus lemoinei,Philadelphus,lemoinei,Hydrangeaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Philadelphus x Lemoinei,,21,,quelle_sauber,duenn,,Philadelphus Lemoinei Gruppe,,,nein,nein
+Hypericum androsaemum,Hypericum,androsaemum,Hypericaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Mannsblut,ja,43,131,quelle_sauber,teilweise,,Hypericum Androsaemum,,,nein,nein
+Hypericum calycinum,Hypericum,calycinum,Hypericaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Immergrünes Johanniskraut,ja,43,131,quelle_sauber,teilweise,,Hypericum Calycinum,,,nein,nein
+Carya illinoinensis,Carya,illinoinensis,Juglandaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Pekannussbaums,,,52,nur_ocr,duenn,,,,,ja,nein
+Carya ovata,Carya,ovata,Juglandaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Schuppenrinden Hickory,,18,52,quelle_sauber,teilweise,,Carya Ovata,,,nein,nein
+Juglans cinerea,Juglans,cinerea,Juglandaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Amerikanische Butternuss,,,52,nur_ocr,duenn,,,,,ja,nein
+Juglans nigra,Juglans,nigra,Juglandaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Schwarznuss,,18,51,quelle_sauber,vollstaendig,Juglans nigra,Juglans Nigra,,,nein,nein
+Juglans regia,Juglans,regia,Juglandaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,"Echte Walnuss, Gemeine Waln.",,18,52,quelle_sauber,vollstaendig,Juglans regia,Juglans Regia subsp.Regia,,,nein,nein
+Pterocarya fraxinifolia,Pterocarya,fraxinifolia,Juglandaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Kaukasische Flügelnuss,,19,53,quelle_sauber,vollstaendig,Pterocarya fraxinifolia,Pterocarya Fraxinifolia,,,nein,nein
+Pterocarya stenoptera,Pterocarya,stenoptera,Juglandaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Chinesische Flügelnuss,,19,53,quelle_sauber,teilweise,,Pterocarya Stenoptera,,,nein,nein
+Lavandula angustifolia,Lavandula,angustifolia,Lamiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Lavendel,,54,163,quelle_sauber,teilweise,,Lanvandula Angustifolia,,,nein,nein
+Salvia officinalis,Salvia,officinalis,Lamiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Garten Salbei,,54,163,quelle_sauber,teilweise,,Salvia Officinalis,,othcinals,nein,nein
+Salvia rosmarinus,Salvia,rosmarinus,Lamiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Rosmarin,,54,164,quelle_sauber,teilweise,,Salvia Rosmarinus,,,nein,nein
+Thymus vulgaris,Thymus,vulgaris,Lamiaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Thymian,,54,164,quelle_sauber,teilweise,,Thymnus Vulgaris,,,nein,nein
+Akebia,Akebia,,Lardizabalaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Akebie,,11,,quelle_sauber,duenn,,Akebia,,,nein,nein
+Akebia tifousta,Akebia,tifousta,Lardizabalaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,29,nur_ocr,duenn,,,,,ja,nein
+Akebia trifoliata,Akebia,trifoliata,Lardizabalaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kleeblättrige Akebie © © <> |,,,29,nur_ocr,duenn,,,,,ja,nein
+Decaisnea fargesii,Decaisnea,fargesii,Lardizabalaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Blauschotenstrauch, Blaugurke iB",,,29,nur_ocr,duenn,,,,farge,ja,nein
+Cinnamomum camphora,Cinnamomum,camphora,Lauraceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Cinnamomum camphora,,,,nein,nein
+Laurus nobdrs,Laurus,nobdrs,Lauraceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,28,nur_ocr,duenn,,,,,ja,ja
+Laurus nobilis,Laurus,nobilis,Lauraceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Lorbeer,,11,28,quelle_sauber,teilweise,,Laurus Nobilis,,,nein,nein
+Loranthus europaeus,Loranthus,europaeus,Loranthaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Eichenmistel,ja,41,125,quelle_sauber,teilweise,,Loranthus Europaeus,,,nein,nein
+Viscum album,Viscum,album,Loranthaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Mistel,ja,41,125,quelle_sauber,vollstaendig,Viscum album,Viscum Album,,,nein,nein
+Liriodendron tulipifera,Liriodendron,tulipifera,Magnoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Tulpenbaum,,9,23,quelle_sauber,vollstaendig,Liriodendron tulipifera,Liriodendron Tulipfera,,,nein,nein
+Magnolia denudata,Magnolia,denudata,Magnoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Lilien Magnolie,,10,24,quelle_sauber,teilweise,,Magnolia Denudata,,,nein,nein
+Magnolia grandiflora,Magnolia,grandiflora,Magnoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Immergrüne Magnolie,,9,24,quelle_sauber,vollstaendig,Magnolia grandiflora,Magnolia Grandiflora,,,nein,nein
+Magnolia kobus,Magnolia,kobus,Magnoliaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Japanische Baummagnolie,,10,24,quelle_sauber,vollstaendig,Magnolia kobus,Magnolia Kobus,,,nein,nein
+Magnolia liliflora,Magnolia,liliflora,Magnoliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Purpur Magnolie,,10,25,quelle_sauber,teilweise,,Magnolia Liliflora,,,nein,nein
+Magnolia sieboldii,Magnolia,sieboldii,Magnoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Sommer-Magnolie N N,,,25,nur_ocr,duenn,,,,seboldd,ja,nein
+Magnolia x soulangeana,Magnolia,soulangeana,Magnoliaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,ja,ja,Tulpenmagnolie,,10,,quelle_sauber,teilweise,Magnolia x soulangeana,Magnolia X Soulangiana,,,nein,nein
+Magnolia stellata,Magnolia,stellata,Magnoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Stem-Magnolie fy,,,25,nur_ocr,duenn,,,,,ja,nein
+Magnolia tripetala,Magnolia,tripetala,Magnoliaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Schirmmagnolie, Umbrella-Tree f SS",,,24,nur_ocr,duenn,,,,,ja,nein
+Hibiscus syriacus,Hibiscus,syriacus,Malvaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Hibiskus, Strauch Eibisch",,44,139,quelle_sauber,teilweise,,Hibiscus Syriacus,,,nein,nein
+Toona sinsensis,Toona,sinsensis,Meliaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Chin.Götterbaum = Gemüsebaum,,37,114,quelle_sauber,teilweise,,Toona Sinsensis,,,nein,nein
+Broussonetia papyrifera,Broussonetia,papyrifera,Moraceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Papiermaulbeerbaum,,18,51,quelle_sauber,vollstaendig,Broussonetia papyrifera,Broussonetia Papyrifera,,,nein,nein
+Ficus carica,Ficus,carica,Moraceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Echte Feige,,18,50,quelle_sauber,vollstaendig,Ficus carica,Ficus Carica,,,nein,nein
+Maclura pomifera,Maclura,pomifera,Moraceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,"Osagedorn, Milchorange",,17,,quelle_sauber,duenn,,Maclura Pomifera,,,nein,nein
+Morus alba,Morus,alba,Moraceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Weisser Maulbeerbaum,,17,49,quelle_sauber,vollstaendig,Morus alba,Morus Alba,,,nein,nein
+Morus nigra,Morus,nigra,Moraceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Schwarzer Maulbeerbaum,,17,49,quelle_sauber,vollstaendig,Morus nigra,Morus Nigra,,,nein,nein
+Morus rubra,Morus,rubra,Moraceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Roter Maulbeerbaum,,,49,nur_ocr,duenn,,,,,ja,nein
+Nyssa sylvatica,Nyssa,sylvatica,Nyssaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Wald-Tupelobaum,,,115,quelle_sauber,duenn,Nyssa sylvatica,,,,nein,nein
+Fontanesia fortunei,Fontanesia,fortunei,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Chinesische Fontanensie,,51,156,quelle_sauber,teilweise,,Fontanensia Fortunei,,,nein,nein
+Fontanesia phillyreoides,Fontanesia,phillyreoides,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kleinasiatische Fontanensie RE phillyr,,,156,nur_ocr,duenn,,,,,ja,nein
+Forsythia x intermedia,Forsythia,intermedia,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,nein,ja,ist häufigste Form,,52,,quelle_sauber,duenn,Forsythia x intermedia,Forsythia X Intermedia,,,nein,nein
+Forsythia suspens,Forsythia,suspens,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Hängende Forsythie,,51,157,quelle_sauber,teilweise,,Forsythia Suspens,,,nein,nein
+Forsythia viridissima,Forsythia,viridissima,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Grüne Forsythie,,52,157,quelle_sauber,teilweise,,Forsythia Viridissima,,,nein,nein
+Fraxinus angustifolia,Fraxinus,angustifolia,Oleaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,153,quelle_sauber,duenn,Fraxinus angustifolia,,,,nein,nein
+Fraxinus excelsior,Fraxinus,excelsior,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Esche,ja,50,153,quelle_sauber,vollstaendig,Fraxinus excelsior,Fraxinus Excelsior,,,nein,nein
+Fraxinus ornus,Fraxinus,ornus,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Blumen Esche,ja,50,154,quelle_sauber,vollstaendig,Fraxinus ornus,Fraxinus Ornus,,,nein,nein
+Fraxinus pennsylvanica,Fraxinus,pennsylvanica,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,154,nur_ocr,duenn,,,,,ja,nein
+Fraxinus sieboldiana,Fraxinus,sieboldiana,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Siebolds Blumen-Esche (8 ),,,154,nur_ocr,duenn,,,,,ja,nein
+Jasminum fruticans,Jasminum,fruticans,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Strauch Jasmin,,52,157,quelle_sauber,teilweise,,Jasminum Fruticans,,,nein,nein
+Jasminum nudiflorum,Jasminum,nudiflorum,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Winter Jasmin,,52,157,quelle_sauber,teilweise,,Jasminum Nudiflorum,,,nein,nein
+Ligustrum obtusifolium,Ligustrum,obtusifolium,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,156,nur_ocr,duenn,,,,,ja,nein
+Ligustrum ovalifolium,Ligustrum,ovalifolium,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Wintergrüner Liguster,,51,156,quelle_sauber,vollstaendig,Ligustrum ovalifolium,Ligustrum Ovalifoium,,,nein,nein
+Ligustrum vulgare,Ligustrum,vulgare,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Liguster,ja,51,155,quelle_sauber,vollstaendig,Ligustrum vulgare,Ligustrum Vulgare,,,nein,nein
+Olea europaea,Olea,europaea,Oleaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Olea europaea,,,,nein,nein
+Syringa chinensis,Syringa,chinensis,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Chinesischer Flieder,,51,,quelle_sauber,duenn,,Syringa X Chinensis,,,nein,nein
+Syringa josikaea,Syringa,josikaea,Oleaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Ungarischer Flieder Y,,,155,quelle_sauber,duenn,Syringa josikaea,,,,nein,nein
+Syringa mcrophytla,Syringa,mcrophytla,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,155,nur_ocr,duenn,,,,,ja,nein
+Syringa meyeri,Syringa,meyeri,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Meyers Flieder,,51,155,quelle_sauber,teilweise,,Syringa Meyeri,,,nein,nein
+Syringa pubescens,Syringa,pubescens,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,155,nur_ocr,duenn,,,,,ja,ja
+Syringa reflexa,Syringa,reflexa,Oleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Bogenflieder,,51,155,quelle_sauber,teilweise,,Syringa Reflexa,,,nein,nein
+Syringa vulgaris,Syringa,vulgaris,Oleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeiner Flieder,,50,154,quelle_sauber,vollstaendig,Syringa vulgaris,Syringa Vulgaris,,,nein,nein
+Syringa wolfii,Syringa,wolfii,Oleaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Wolfs-Flieder,,,155,nur_ocr,duenn,,,,,ja,nein
+Paeonia lutea,Paeonia,lutea,Paeoniaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Gelbe Strauch-Pfingstrose,,,129,nur_ocr,duenn,,,,,ja,nein
+Paeonia suffruticosa,Paeonia,suffruticosa,Paeoniaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Strauchpfingsrose,,42,129,quelle_sauber,vollstaendig,Paeonia suffruticosa,Paeonia Suffruticosa,,,nein,nein
+Abies alba,Abies,alba,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,nein,Weiß Tanne,ja,1,1,quelle_sauber,vollstaendig,Abies alba,Abies Alba,,,nein,nein
+Abies cephalonica,Abies,cephalonica,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Griechische Tanne,,1,1,quelle_sauber,vollstaendig,Abies cephalonica,Abies Cephalonica,,,nein,nein
+Abies concolor,Abies,concolor,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,nein,Colorado Tanne,,2,2,quelle_sauber,vollstaendig,Abies concolor,Abies Concolor,,,nein,nein
+Abies grandis,Abies,grandis,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Große Küstentanne, Riesentanne Fr Fe -",,,2,nur_ocr,duenn,,,,,ja,nein
+Abies koreana,Abies,koreana,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Korea-Tanne AR,,,3,nur_ocr,duenn,,,,,ja,nein
+Abies nordmanniana,Abies,nordmanniana,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Nordmanns Tanne,,1,1,quelle_sauber,vollstaendig,Abies nordmanniana,Abies Nordmanniana,,,nein,nein
+Abies pinsapo,Abies,pinsapo,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,nein,Spanische Tanne,,1,2,quelle_sauber,vollstaendig,Abies pinsapo,Abies Pinsapo,,,nein,nein
+Abies procera,Abies,procera,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Edel-Tanne  .,,,2,nur_ocr,duenn,,,,,ja,nein
+Abies veitchii,Abies,veitchii,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Veitchs-Tanne N A,,,3,nur_ocr,duenn,,,,,ja,nein
+Cedrus atlantica,Cedrus,atlantica,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Atlas Zeder,,3,7,quelle_sauber,vollstaendig,Cedrus atlantica,Cedrus Atlantica,,,nein,nein
+Cedrus deodara,Cedrus,deodara,Pinaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,Himalaja-Zeder f Ax,,,7,quelle_sauber,duenn,Cedrus deodara,,,,nein,nein
+Cedrus libani,Cedrus,libani,Pinaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,Libanon-Zeder K,,,7,quelle_sauber,duenn,Cedrus libani,,,,nein,nein
+Larix decidua,Larix,decidua,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Europäische Lärche,ja,3,6,quelle_sauber,vollstaendig,Larix decidua,Larix Decidua,,,nein,nein
+Larix kaempferi,Larix,kaempferi,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Japanische Lärche,,3,6,quelle_sauber,vollstaendig,Larix kaempferi,Larix Kaempferi,,,nein,nein
+Larix laricina,Larix,laricina,Pinaceae,skript,Nadelgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Larix laricina,,,,nein,nein
+Picea abies,Picea,abies,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,"Gemeine Fichte,Rotfichte",ja,2,3,quelle_sauber,vollstaendig,Picea abies,Picea Abies,,,nein,nein
+Picea breweriana,Picea,breweriana,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Mahnen-Fichte ""ur",,,4,nur_ocr,duenn,,,,,ja,nein
+Picea glauca,Picea,glauca,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Schimmel Fichte,,2,4,quelle_sauber,teilweise,,Picea Glauca,,,nein,nein
+Picea omorika,Picea,omorika,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Serbische Fichte,,2,4,quelle_sauber,vollstaendig,Picea omorika,Picea Omorica,,,nein,nein
+Picea orientalis,Picea,orientalis,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Orient Fichte,,2,4,quelle_sauber,vollstaendig,Picea orientalis,Picea Orientalis,,,nein,nein
+Picea pungens,Picea,pungens,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Stech Fichte,,2,4,quelle_sauber,vollstaendig,Picea pungens,Picea Pungens,,,nein,nein
+Picea sitchensis,Picea,sitchensis,Pinaceae,skript,Nadelgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Picea sitchensis,,,,nein,nein
+Pinus aristata,Pinus,aristata,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Grannen Kiefer,,5,"10,12",quelle_sauber,teilweise,,Pinus Aristata,,,nein,nein
+Pinus cembra,Pinus,cembra,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Zirbe,ja,4,"9,11",quelle_sauber,vollstaendig,Pinus cembra,Pinus Cembra,,,nein,nein
+Pinus halepensis,Pinus,halepensis,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Aleppo-Kiefer A aN,,,13,nur_ocr,duenn,,,,,ja,nein
+Pinus heldreichii,Pinus,heldreichii,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Schlangenhautkiefer,,4,8,quelle_sauber,teilweise,,Pinus Heldreichii,,,nein,nein
+Pinus mugo,Pinus,mugo,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Latsche,ja,4,"9,11",quelle_sauber,vollstaendig,Pinus mugo,Pinus Mugo,,,nein,nein
+Pinus nigra,Pinus,nigra,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Schwarzkiefer,ja,4,8,quelle_sauber,vollstaendig,Pinus nigra,Pinus Nigra,,,nein,nein
+Pinus parviflora,Pinus,parviflora,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Mädchen-Kiefer u WALT,,,13,nur_ocr,duenn,,,,,ja,nein
+Pinus peuce,Pinus,peuce,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Mazedonische, Rumelische Kiefer A i by",,,"9,11",nur_ocr,duenn,,,,,ja,ja
+Pinus pinea,Pinus,pinea,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Pinie, Schirm-Pinie \\ h Eu.",,,13,nur_ocr,duenn,,,,,ja,nein
+Pinus ponderosa,Pinus,ponderosa,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Gelb Kiefer,,5,"10,12",quelle_sauber,teilweise,,Pinus Ponderosa,,,nein,nein
+Pinus pumila,Pinus,pumila,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,"Japanische Zwergkiefer, Kriech-Kiefer ",,,13,nur_ocr,duenn,,,,,ja,nein
+Pinus strobus,Pinus,strobus,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Weymouth Kiefer,,4,"10,12",quelle_sauber,vollstaendig,Pinus strobus,Pinus Strobus,,,nein,nein
+Pinus sylvestris,Pinus,sylvestris,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,"Gemeine Kiefer, Rotföhre",ja,3,8,quelle_sauber,vollstaendig,Pinus sylvestris,Pinus Sylvestris,,,nein,nein
+Pinus unicata,Pinus,unicata,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Haken Kiefer,ja,4,"9,11",quelle_sauber,duenn,,Pinus Unicata,,uncinata,nein,nein
+Pinus wallichiana,Pinus,wallichiana,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Tränenkiefer,,5,"10,12",quelle_sauber,teilweise,,Pinus Wallichiana,,,nein,nein
+Pseudolarix amabilis,Pseudolarix,amabilis,Pinaceae,skript,Nadelgehoelz,pruefung,ja,nein,ja,nein,nein,Goldlärche,,,6,quelle_sauber,duenn,Pseudolarix amabilis,,,,nein,nein
+Pseudotsuga menziesii,Pseudotsuga,menziesii,Pinaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Douglasie,,3,5,quelle_sauber,vollstaendig,Pseudotsuga menziesii,Pseudotsuga Menziesii,,,nein,nein
+Tsuga canadensis,Tsuga,canadensis,Pinaceae,skript,Nadelgehoelz,vorlesung,nein,ja,ja,nein,nein,Kanadische Hemlocktanne,,3,5,quelle_sauber,teilweise,,Tsuga Canadensis,,,nein,nein
+Tsuga cansden,Tsuga,cansden,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,,,,5,nur_ocr,duenn,,,,,ja,ja
+Tsuga heterophylla,Tsuga,heterophylla,Pinaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Westliche Hemlocktanne Da,,,5,nur_ocr,duenn,,,,,ja,nein
+Platanus x acerifolia,Platanus,acerifolia,Platanaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,36,quelle_sauber,duenn,Platanus x acerifolia,,Platanus x hybrida (= hispanica),,nein,nein
+Platanus hybrida-hispanica,Platanus,hybrida-hispanica,Platanaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Ahornblättrige Platane,,13,,quelle_sauber,duenn,,Platanus X Hybrida-HISPANICA- ACERIFOLIA,,,nein,nein
+Platanus orientalis,Platanus,orientalis,Platanaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Morgenländische Platane,,13,36,quelle_sauber,vollstaendig,Platanus orientalis,Platanus Orientalis,,,nein,nein
+Fallopia aubertii,Fallopia,aubertii,Polygonaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,144,nur_ocr,duenn,,,,,ja,nein
+Fallopia baldschuanica,Fallopia,baldschuanica,Polygonaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Schlingknöterich,,46,144,quelle_sauber,teilweise,,Fallopia Baldschuanica,,,nein,nein
+Clematis alpina,Clematis,alpina,Ranunculaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,30,nur_ocr,duenn,,,,,ja,nein
+Clematis jackmanii,Clematis,jackmanii,Ranunculaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Clematis X Jackmanii,,11,,quelle_sauber,duenn,,Clematis X Jackmanii,,,nein,nein
+Clematis montana,Clematis,montana,Ranunculaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Berg Waldrebe,,11,30,quelle_sauber,teilweise,,Clematis Montana,,,nein,nein
+Clematis orientalis,Clematis,orientalis,Ranunculaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Orientalische Waldrebe ae,,,31,nur_ocr,duenn,,,,,ja,nein
+Clematis tangutica,Clematis,tangutica,Ranunculaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,31,nur_ocr,duenn,,,,,ja,nein
+Clematis vitalba,Clematis,vitalba,Ranunculaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gemeine Waldrebe,ja,11,30,quelle_sauber,teilweise,,Clematis Vitalba,,,nein,nein
+Clematis viticella,Clematis,viticella,Ranunculaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Italienische Waldrebe A ’,,,31,nur_ocr,duenn,,,,,ja,nein
+Ceanothus xdelilianus,Ceanothus,xdelilianus,Rhamnaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,123,nur_ocr,duenn,,,,,ja,nein
+Frangula alnus,Frangula,alnus,Rhamnaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Faulbaum,,40,123,quelle_sauber,teilweise,,Fragula Alnus,,,nein,nein
+Rhamnus alpina,Rhamnus,alpina,Rhamnaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Alpen Kreuzdorn,ja,40,122,quelle_sauber,teilweise,,Rahmnus Alpina,,,nein,nein
+Rhamnus cathartica,Rhamnus,cathartica,Rhamnaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Purgier Kreuzdorn,ja,40,122,quelle_sauber,vollstaendig,Rhamnus cathartica,Rahmnus Cathartica,,,nein,nein
+Rhamnus frangula,Rhamnus,frangula,Rhamnaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,123,nur_ocr,duenn,,,,,ja,nein
+Rhamnus saxatilis,Rhamnus,saxatilis,Rhamnaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,122,nur_ocr,duenn,,,,,ja,nein
+Amelanchier arborea,Amelanchier,arborea,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Robin Hill’ Schnee-Felsenbime N 5 /),,,72,nur_ocr,duenn,,,,,ja,nein
+Amelanchier canadensis,Amelanchier,canadensis,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Amelanchier canadensis,,,,nein,nein
+Amelanchier lamarchii,Amelanchier,lamarchii,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kupfer Felsenbirne,,25,72,quelle_sauber,teilweise,,Amelanchier Lamarchii,,lamarckii,nein,nein
+Amelanchier ovalis,Amelanchier,ovalis,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,nein,nein,Gemeine Felsenbirne,ja,25,72,quelle_sauber,teilweise,Amelanchier ovalis,Amelanchier Ovalis,,,nein,nein
+Amelanchier spicata,Amelanchier,spicata,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Besen-Felsenbime NZ,,,72,nur_ocr,duenn,,,,,ja,nein
+Aronia melanocarpa,Aronia,melanocarpa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kahle Apfelbeere 09);,,,72,nur_ocr,duenn,,,,,ja,nein
+Cercocarpus betuloides,Cercocarpus,betuloides,Rosaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Cercocarpus betuloides,,,,nein,nein
+Chaenomeles japonica,Chaenomeles,japonica,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Japanische oder Niedrige Zierquitte,,,78,nur_ocr,duenn,,,,,ja,nein
+Chaenomeles speciosa,Chaenomeles,speciosa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Chinesische oder Hohe Zierquitte 3,,,78,nur_ocr,duenn,,,,,ja,nein
+Chaenomeles superba,Chaenomeles,superba,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Zierquitte,,26,,quelle_sauber,duenn,,Chaenomeles X superba -Hybrid,,,nein,nein
+Cotoneaster acutifolius,Cotoneaster,acutifolius,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Spitzblättrige Strauchmispel,,27,82,quelle_sauber,teilweise,,Cotoneaster Acutifolius,,,nein,nein
+Cotoneaster bullatus,Cotoneaster,bullatus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Runzelige Felsenmispel a,,,82,nur_ocr,duenn,,,,,ja,nein
+Cotoneaster dammeri,Cotoneaster,dammeri,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kriechmispel,,27,81,quelle_sauber,teilweise,,Cotoneastr Dammeri,,,nein,nein
+Cotoneaster horizontalis,Cotoneaster,horizontalis,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,ja,Fächer-Felsenmispel,,,81,quelle_sauber,duenn,Cotoneaster horizontalis,,,,nein,nein
+Cotoneaster integerrimus,Cotoneaster,integerrimus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,81,nur_ocr,duenn,,,,,ja,nein
+Cotoneaster microphylius,Cotoneaster,microphylius,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Immergrüne Zwergmispel, Kleinblättrige",,,81,nur_ocr,duenn,,,,,ja,nein
+Cotoneaster multiflorus,Cotoneaster,multiflorus,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Blüten Felsenmispel,,27,82,quelle_sauber,teilweise,,Cotoneaster Multiflorus,,,nein,nein
+Cotoneaster nebrodensis,Cotoneaster,nebrodensis,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,82,nur_ocr,duenn,,,,,ja,nein
+Cotoneaster salicifolius,Cotoneaster,salicifolius,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Weidenblättrige Felsenmispel,,27,82,quelle_sauber,vollstaendig,Cotoneaster salicifolius,Cotoneaster Salicifolius,,,nein,nein
+Cotoneaster tomentosus,Cotoneaster,tomentosus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,82,nur_ocr,duenn,,,,,ja,nein
+Crataegus azarolus,Crataegus,azarolus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Azaroldorn, Azarolapfel ‘ 7",,,80,nur_ocr,duenn,,,,,ja,nein
+Crataegus crus-galli,Crataegus,crus-galli,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Hahnendorn,,,79,nur_ocr,duenn,,,,,ja,nein
+Crataegus laevigata,Crataegus,laevigata,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,"Zweigriffeliger Weissdorn,Rotdorn",ja,26,79,quelle_sauber,vollstaendig,Crataegus laevigata,Crataegus Laevigata,,,nein,nein
+Crataegus monogyna,Crataegus,monogyna,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Eingriffeliger Weissdorn,ja,26,79,quelle_sauber,vollstaendig,Crataegus monogyna,Crataegus Monogyna,,,nein,nein
+Crataegus persimilis,Crataegus,persimilis,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Pflaumenblättriger Weissdorn,,27,,quelle_sauber,duenn,,Crataegus x persimilis (Prunifolia),,,nein,nein
+Cydonia oblonga,Cydonia,oblonga,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Echte Quitte,,26,77,quelle_sauber,vollstaendig,Cydonia oblonga,Cydonia Oblonga,,,nein,nein
+Dryas octopetala,Dryas,octopetala,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,85,nur_ocr,duenn,,,,,ja,nein
+Exochorda giraldii,Exochorda,giraldii,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Dahurische Radspiere Exochorda Exochor,,,93,nur_ocr,duenn,,,,,ja,nein
+Exochorda korolkowi,Exochorda,korolkowi,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Turkestanische Radspiere,,29,93,quelle_sauber,teilweise,,Exochorda Korolkowi,,,nein,nein
+Exochorda racemosa,Exochorda,racemosa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Chinesische Radspiere >) =>,,,93,nur_ocr,duenn,,,,,ja,nein
+Holodiscus discolor,Holodiscus,discolor,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Schaumspiere; Scheinspiere N GG us,,,92,nur_ocr,duenn,,,,,ja,ja
+Kerria japonica,Kerria,japonica,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Ranunkelstrauch,,28,83,quelle_sauber,teilweise,,Kerria Japonica,,,nein,nein
+Malus baccata,Malus,baccata,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Beerenapfel/Kirschapfel,,,73,quelle_sauber,duenn,Malus baccata,,,,nein,nein
+Malus domestica,Malus,domestica,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kulturapfel,,25,73,quelle_sauber,teilweise,,Malus Domestica,,,nein,nein
+Malus floribunda,Malus,floribunda,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Vielblütiger Apfel,,,73,quelle_sauber,duenn,Malus floribunda,,,,nein,nein
+Malus sylvestris,Malus,sylvestris,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,73,quelle_sauber,duenn,Malus sylvestris,,,,nein,nein
+Malus tschonoskii,Malus,tschonoskii,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Woll-Apfel ee ry,,,74,nur_ocr,duenn,,,,,ja,nein
+Mespilus germanica,Mespilus,germanica,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Mispel,,26,77,quelle_sauber,vollstaendig,Mespilus germanica,Mespilus Germanica,,,nein,nein
+Photinia fraserie,Photinia,fraserie,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Rotlaubige Glanzmispel,,27,,quelle_sauber,duenn,,Photinia X Fraserie,,,nein,nein
+Physocarpus opulifolius,Physocarpus,opulifolius,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Blasenspiere,,29,91,quelle_sauber,teilweise,,Physocarpus Opulifolius,,,nein,nein
+Potentilla fruticosa,Potentilla,fruticosa,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gemeiner Fingerstrauch,,28,84,quelle_sauber,teilweise,,Potentilla Fruticosa,,,nein,nein
+Potentilla invasiv,Potentilla,invasiv,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,"81,159",nur_ocr,duenn,,,,,ja,ja
+Prunus armeniaca,Prunus,armeniaca,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Marille,,23,69,quelle_sauber,teilweise,,Prunus Armeniaca,,,nein,nein
+Prunus avium,Prunus,avium,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Vogelkirsche,ja,22,65,quelle_sauber,vollstaendig,Prunus avium,Prunus Avium,,,nein,nein
+Prunus cerasifers,Prunus,cerasifers,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kirsch Pflaume,,23,67,quelle_sauber,teilweise,,Prunus Cerasifers ssp.Cerasifera,,,nein,nein
+Prunus domestica,Prunus,domestica,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Kuturpflaume, Zwetschke",,22,66,quelle_sauber,teilweise,,Prunus Domestica subsp.Domeestica,,,nein,nein
+Prunus dulcis,Prunus,dulcis,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Mandel,,23,69,quelle_sauber,teilweise,,Prunus Dulcis,,,nein,nein
+Prunus eminens,Prunus,eminens,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kugel Steppen Kirsche,,22,66,quelle_sauber,teilweise,,Prunus X Eminens umbraculifera Prunus Fruticosa Globosa,,,nein,nein
+Prunus fruticosa,Prunus,fruticosa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,68,nur_ocr,duenn,,,,,ja,nein
+Prunus laurocerasus,Prunus,laurocerasus,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Lorbeer Kirsche,,24,69,quelle_sauber,vollstaendig,Prunus laurocerasus,Prunus Laurocerasus,,cerasus,nein,nein
+Prunus lusitanica,Prunus,lusitanica,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Portugisische Lorbeer-Kirsche \,,,69,nur_ocr,duenn,,,,,ja,nein
+Prunus mahaleb,Prunus,mahaleb,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,67,quelle_sauber,duenn,,,,,nein,nein
+Prunus malaheb,Prunus,malaheb,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Steinweichsel,ja,23,,quelle_sauber,duenn,,Prunus Malaheb,,,nein,nein
+Prunus mume,Prunus,mume,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanische Aprikose,,22,66,quelle_sauber,teilweise,,Prunus Mume,,,nein,nein
+Prunus padus,Prunus,padus,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Traubenkirsche,ja,22,66,quelle_sauber,vollstaendig,Prunus padus,Prunus Padus,,,nein,nein
+Prunus persica,Prunus,persica,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,Pfirsich,,,"68,69",quelle_sauber,teilweise,Prunus persica,,,,nein,nein
+Prunus sargentii,Prunus,sargentii,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Japanische Bergkirsche, Scharlachkirsche",,22,65,quelle_sauber,teilweise,,Prunus Sargentii,,,nein,nein
+Prunus serotina,Prunus,serotina,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Spätblühende Trauben-Kirsche N,,,66,nur_ocr,duenn,,,,,ja,nein
+Prunus serrulata,Prunus,serrulata,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Japanische Blüten Kirsche,,23,68,quelle_sauber,vollstaendig,Prunus serrulata,Prunus Serrulata,,,nein,nein
+Prunus spinosa,Prunus,spinosa,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Schlehdorn,ja,23,67,quelle_sauber,vollstaendig,Prunus spinosa,Prunus Spinosa,,,nein,nein
+Prunus subhirtella,Prunus,subhirtella,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Higan-Kirsche,,,68,nur_ocr,duenn,,,,,ja,nein
+Prunus tenella,Prunus,tenella,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Zwerg Mandel,ja,23,68,quelle_sauber,teilweise,,Prunus Tenella,,,nein,nein
+Prunus triloba,Prunus,triloba,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Mandelröschen x,,,67,nur_ocr,duenn,,,,,ja,nein
+Pyracantha coccinea,Pyracantha,coccinea,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Mittelmeer Feuerdorn,,27,80,quelle_sauber,teilweise,,Pyracantha Coccinea,,,nein,nein
+Pyracantha rogersiana,Pyracantha,rogersiana,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Gelbfruchtiger Feuerdorn,,27,80,quelle_sauber,teilweise,,Pyracantha Rogersiana,,,nein,nein
+Pyrus calleryana,Pyrus,calleryana,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Chinesische Birne,,25,74,quelle_sauber,vollstaendig,Pyrus calleryana,Pyrus Calleryana,,,nein,nein
+Pyrus communis,Pyrus,communis,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gewöhnliche Birne,,25,74,quelle_sauber,vollstaendig,Pyrus communis,Pyrus Communis,,,nein,nein
+Pyrus pyraster,Pyrus,pyraster,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Holz Birne,ja,25,74,quelle_sauber,teilweise,,Pyrus Pyraster,,,nein,nein
+Pyrus salicifolia,Pyrus,salicifolia,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Weidenblättrige Birne Ci,,,77,nur_ocr,duenn,,,,,ja,nein
+Pyrus swrobus,Pyrus,swrobus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,12,nur_ocr,duenn,,,,,ja,nein
+Rhodotypos scandens,Rhodotypos,scandens,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Scheinkerrie,,28,83,quelle_sauber,teilweise,,Rhodotypos Scandens,,,nein,nein
+Rosa arvensis,Rosa,arvensis,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,87,nur_ocr,duenn,,,,,ja,nein
+Rosa canina,Rosa,canina,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,86,quelle_sauber,duenn,Rosa canina,,,xanthina,nein,nein
+Rosa gallica,Rosa,gallica,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,87,nur_ocr,duenn,,,,,ja,nein
+Rosa glauca,Rosa,glauca,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,86,nur_ocr,duenn,,,,,ja,nein
+Rosa moyesii,Rosa,moyesii,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Zimt- oder Flaschenrose, Mandarin-Rose",,,88,nur_ocr,duenn,,,,,ja,nein
+Rosa multiflora,Rosa,multiflora,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Vielblütige Rose us,,,88,nur_ocr,duenn,,,,,ja,nein
+Rosa nitida,Rosa,nitida,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Glanzrose,,,87,nur_ocr,duenn,,,,,ja,nein
+Rosa pendulina,Rosa,pendulina,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,86,nur_ocr,duenn,,,,,ja,nein
+Rosa rubiginosa,Rosa,rubiginosa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,86,nur_ocr,duenn,,,,rugosa,ja,nein
+Rosa sericea,Rosa,sericea,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,88,nur_ocr,duenn,,,,,ja,nein
+Rosa spinoisissima,Rosa,spinoisissima,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,87,quelle_sauber,duenn,,,,,nein,nein
+Rubus caesius,Rubus,caesius,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,85,nur_ocr,duenn,,,,,ja,nein
+Rubus fruticosus,Rubus,fruticosus,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Wilde Brombeere,ja,28,84,quelle_sauber,teilweise,,Rubus Fruticosus,,,nein,nein
+Rubus ideaeus,Rubus,ideaeus,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Himbeere,ja,28,84,quelle_sauber,teilweise,,Rubus Ideaeus,,,nein,nein
+Rubus odoratus,Rubus,odoratus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Zimt-Himbeere,,,85,nur_ocr,duenn,,,,,ja,nein
+Rubus phoenicolasius,Rubus,phoenicolasius,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Japanische Weinbeere,,,85,nur_ocr,duenn,,,,,ja,nein
+Sorbaria sorbifolia,Sorbaria,sorbifolia,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Sibirische Fiederspiere,,29,91,quelle_sauber,teilweise,,Sorbaria Sorbifolia,,,nein,nein
+Sorbus aria,Sorbus,aria,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Mehlbeere,ja,24,71,quelle_sauber,vollstaendig,Sorbus aria,Sorbus Aria,,,nein,nein
+Sorbus aucuparia,Sorbus,aucuparia,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,"Gemeine Eberesche, Vogelbeere",ja,24,70,quelle_sauber,vollstaendig,Sorbus aucuparia,Sorbus Aucuparia,,,nein,nein
+Sorbus chamaemespilus,Sorbus,chamaemespilus,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,71,nur_ocr,duenn,,,,,ja,nein
+Sorbus domestica,Sorbus,domestica,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Speierling,ja,24,70,quelle_sauber,vollstaendig,Sorbus domestica,Sorbus Domestica,,,nein,nein
+Sorbus intermedia,Sorbus,intermedia,Rosaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,Schwedische Mehlbeere,,,71,quelle_sauber,duenn,Sorbus intermedia,,,,nein,nein
+Sorbus torminalis,Sorbus,torminalis,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Elsbeere,ja,24,70,quelle_sauber,teilweise,,Sorbus Torminalis,,,nein,nein
+Spiraea cinera,Spiraea,cinera,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Weisse Rispenspiere,,29,,quelle_sauber,duenn,,Spirea x Cinera Grefsheim,,,nein,nein
+Spiraea decumbens,Spiraea,decumbens,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,90,nur_ocr,duenn,,,,,ja,ja
+Spiraea japonica,Spiraea,japonica,Rosaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Japanischer Spirstrauch,,29,90,quelle_sauber,vollstaendig,Spiraea japonica,Spirea Japonica,,,nein,nein
+Spiraea nipponica,Spiraea,nipponica,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Nippon Spierstrauch,,29,90,quelle_sauber,teilweise,,Spirea Nipponica,,,nein,nein
+Spiraea salicifolia,Spiraea,salicifolia,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Weidenbiattriger Spierstrauch,,,90,nur_ocr,duenn,,,,,ja,nein
+Spiraea satcitoba,Spiraea,satcitoba,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,90,nur_ocr,duenn,,,,,ja,nein
+Spiraea thunbergii,Spiraea,thunbergii,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Feinlaubige Strauchspiere >,,,89,nur_ocr,duenn,,,,,ja,nein
+Spiraea vanhouttei,Spiraea,vanhouttei,Rosaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Belgischer Spierstrauch,,29,,quelle_sauber,duenn,,Spirea x Vanhouttei,,,nein,nein
+Stephanandra incisa,Stephanandra,incisa,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kleine Kranzspiere,,,92,nur_ocr,duenn,,,,,ja,nein
+Stephanandra tanakae,Stephanandra,tanakae,Rosaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Große Kranzspiere,,,92,nur_ocr,duenn,,,,,ja,ja
+Phellodendron amurense,Phellodendron,amurense,Rutaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Amur Korkbaum,,36,111,quelle_sauber,teilweise,,Phellodendron Amurense,,,nein,nein
+Poncirus trifoliata,Poncirus,trifoliata,Rutaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Bitterorange,,36,112,quelle_sauber,teilweise,,Poncirus Trifoliata,,,nein,nein
+Ptelea trifoliata,Ptelea,trifoliata,Rutaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Hopfenstrauch,,36,112,quelle_sauber,teilweise,,Ptelea Trifoliata,,,nein,nein
+Skimmia japonica,Skimmia,japonica,Rutaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Japanische Skimmie,,36,112,quelle_sauber,teilweise,,Skimmia Japonica,,,nein,nein
+Tetradium daniellii,Tetradium,daniellii,Rutaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Honigesche, Korean.Stinkesche)",,36,111,quelle_sauber,teilweise,,Tetradium Daniellii,,,nein,nein
+Populus alba,Populus,alba,Salicaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Silber Pappel,ja,43,133,quelle_sauber,vollstaendig,Populus alba,Populus Alba,,,nein,nein
+Populus balsimifera,Populus,balsimifera,Salicaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Balsam Pappel,,44,134,quelle_sauber,teilweise,,Populus Balsimifera,,,nein,nein
+Populus canadensis,Populus,canadensis,Salicaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kanadische Pappel,,43,133,quelle_sauber,teilweise,,Populus x Canadensis,,,nein,nein
+Populus nigra,Populus,nigra,Salicaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Schwarz Pappel,ja,43,"133,134",quelle_sauber,vollstaendig,Populus nigra,Populus Nigra,,,nein,nein
+Populus tremula,Populus,tremula,Salicaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,134,quelle_sauber,duenn,Populus tremula,,,,nein,nein
+Populus xberolinensis,Populus,xberolinensis,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,134,nur_ocr,duenn,,,,,ja,nein
+Salix alba,Salix,alba,Salicaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Silber Weide,ja,44,135,quelle_sauber,vollstaendig,Salix alba,Salix Alba,,,nein,nein
+Salix aurita,Salix,aurita,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,137,nur_ocr,duenn,,,,,ja,nein
+Salix caprea,Salix,caprea,Salicaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,136,quelle_sauber,duenn,Salix caprea,,,,nein,nein
+Salix cinerea,Salix,cinerea,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,"Asch- oder Grau-Weide NY,",,,136,nur_ocr,duenn,,,,,ja,nein
+Salix daphnoides,Salix,daphnoides,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,136,nur_ocr,duenn,,,,,ja,nein
+Salix elaeagnos,Salix,elaeagnos,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,136,nur_ocr,duenn,,,,,ja,ja
+Salix fragilis,Salix,fragilis,Salicaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,"Knack Weide, Bruch Weide",ja,44,135,quelle_sauber,vollstaendig,Salix fragilis,Salix Fragilis,,,nein,nein
+Salix herbacea,Salix,herbacea,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,138,nur_ocr,duenn,,,,,ja,nein
+Salix integra,Salix,integra,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,136,nur_ocr,duenn,,,,,ja,nein
+Salix lanata,Salix,lanata,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Woll-Weide OSeuS,,,137,nur_ocr,duenn,,,,,ja,nein
+Salix matsudana,Salix,matsudana,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,137,nur_ocr,duenn,,,,,ja,nein
+Salix purpurea,Salix,purpurea,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,135,nur_ocr,duenn,,,,,ja,nein
+Salix repens,Salix,repens,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,137,nur_ocr,duenn,,,,,ja,ja
+Salix retusa,Salix,retusa,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,138,nur_ocr,duenn,,,,,ja,nein
+Salix sachalinensis,Salix,sachalinensis,Salicaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,137,nur_ocr,duenn,,,,,ja,nein
+Salix viminalis,Salix,viminalis,Salicaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,nein,nein,,,,136,quelle_sauber,duenn,Salix viminalis,,,,nein,nein
+Acer buergerianum,Acer,buergerianum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Dreizähniger Ahorn,,33,106,quelle_sauber,vollstaendig,Acer buergerianum,Acer Buergerianum,,,nein,nein
+Acer campestre,Acer,campestre,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Feld Ahorn,ja,33,105,quelle_sauber,vollstaendig,Acer campestre,Acer Campestre,,,nein,nein
+Acer capillipes,Acer,capillipes,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Schlangenhaut Ahorn,,34,107,quelle_sauber,vollstaendig,Acer capillipes,Acer Capillipes,,,nein,nein
+Acer cappadocicum,Acer,cappadocicum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Kolchischer Ahorn,,33,106,quelle_sauber,vollstaendig,Acer cappadocicum,Acer Cappadocicum,,,nein,nein
+Acer griseum,Acer,griseum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Zimtahorn,,34,107,quelle_sauber,vollstaendig,Acer griseum,Acer Griseum,,,nein,nein
+Acer heldreichii,Acer,heldreichii,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Griechischer Bergahorn,,33,105,quelle_sauber,vollstaendig,Acer heldreichii,Acer Heldreichii,,,nein,nein
+Acer japonicum,Acer,japonicum,Sapindaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,108,nur_ocr,duenn,,,,,ja,nein
+Acer monspessulaum,Acer,monspessulaum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,"Franz.Ahorn, Burgen Ahorn",,34,106,quelle_sauber,vollstaendig,Acer monspessulaum,Acer Monspessulaum,,,nein,nein
+Acer negundo,Acer,negundo,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Eschen Ahorn,,33,106,quelle_sauber,vollstaendig,Acer negundo,Acer Negundo,,,nein,nein
+Acer opalus,Acer,opalus,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Schneeballblättriger Ahorn,,34,107,quelle_sauber,vollstaendig,Acer opalus,Acer Opalus,,,nein,nein
+Acer palmatum,Acer,palmatum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Fächer Ahorn,,34,107,quelle_sauber,vollstaendig,Acer palmatum,Acer Palmatum,,,nein,nein
+Acer platanoides,Acer,platanoides,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Spitz Ahorn,ja,32,104,quelle_sauber,vollstaendig,Acer platanoides,Acer Platanoides,,,nein,nein
+Acer pseudoplatanus,Acer,pseudoplatanus,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Berg Ahorn,ja,32,104,quelle_sauber,vollstaendig,Acer pseudoplatanus,Acer Pseudoplatanus,,,nein,nein
+Acer rubrum,Acer,rubrum,Sapindaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Rot-Ahorn,,,105,quelle_sauber,duenn,,,,,nein,nein
+Acer saccharinum,Acer,saccharinum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Silber Ahorn,,33,105,quelle_sauber,vollstaendig,Acer saccharinum,Acer Saccharinum,,,nein,nein
+Acer tataricum,Acer,tataricum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Tartarischer Ahorn,,33,"106,107",quelle_sauber,vollstaendig,Acer tataricum,Acer Tataricum,,,nein,nein
+Aesculus carnea,Aesculus,carnea,Sapindaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Rotblühende Rosskastanie,,35,,quelle_sauber,duenn,,Aesculus x Carnea,,,nein,nein
+Aesculus flava,Aesculus,flava,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Gelbe Rosskastanie,,35,109,quelle_sauber,vollstaendig,Aesculus flava,Aesculus Flava,,,nein,nein
+Aesculus hippocastanum,Aesculus,hippocastanum,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Rosskastanie,,35,109,quelle_sauber,vollstaendig,Aesculus hippocastanum,Aesculus Hippocastaneum,,,nein,nein
+Aesculus parviflora,Aesculus,parviflora,Sapindaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Strauch Rosskastanie,,35,109,quelle_sauber,teilweise,,Aesculus Parviflora,,,nein,nein
+Aesculus pavia,Aesculus,pavia,Sapindaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Pavie,,35,109,quelle_sauber,teilweise,,Aesculus Pavia,,,nein,nein
+Koelreuteria paniculata,Koelreuteria,paniculata,Sapindaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,"Blasenesche, Blasenbaum",,34,108,quelle_sauber,vollstaendig,Koelreuteria paniculata,Koelreuteria Paniculata,,,nein,nein
+Xanthoceras sorbifolium,Xanthoceras,sorbifolium,Sapindaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Gelbhorn A,,,108,nur_ocr,duenn,,,,,ja,nein
+Sciadopitys,Sciadopitys,,Sciadopityaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Schirmtanne,,6,,quelle_sauber,duenn,,Sciadopitys,,,nein,nein
+Sciadopitys verticillata,Sciadopitys,verticillata,Sciadopityaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Japanische Schirmtanne es. N |,,,15,quelle_sauber,duenn,,,,,nein,nein
+Buddleja alternifolia,Buddleja,alternifolia,Scrophulariaceae,extern,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kaskaden-Sommerflieder %,,,158,nur_ocr,duenn,,,,,ja,nein
+Buddleja davidii,Buddleja,davidii,Scrophulariaceae,extern,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Schmetterlingsflieder, Sommerfl.",,52,158,quelle_sauber,teilweise,,Buddleja Davidii,,,nein,nein
+Ailanthus altissima,Ailanthus,altissima,Simaroubaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Götterbaum,,37,114,quelle_sauber,vollstaendig,Ailanthus altissima,Ailanthus Altissima,,,nein,nein
+Staphylea colchica,Staphylea,colchica,Staphyleaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Kolchische Pimpernuss,,35,110,quelle_sauber,teilweise,,Stahyleacea Colchica,,,nein,nein
+Staphylea pinnata,Staphylea,pinnata,Staphyleaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Pimpernuss,ja,35,110,quelle_sauber,vollstaendig,Staphylea pinnata,Staphyleacea Pinnata,,,nein,nein
+Halesia carolina,Halesia,carolina,Styracaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Halesia carolina,,,,nein,nein
+Tamarix parviflora,Tamarix,parviflora,Tamaricaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Frühlings-Kleinblüte Tamariske,,43,132,quelle_sauber,teilweise,,Tamarix Parviflora,,,nein,nein
+Tamarix ramosissima,Tamarix,ramosissima,Tamaricaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kaspische Tamariske ay,,,132,nur_ocr,duenn,,,,,ja,nein
+Tamarix tetrandra,Tamarix,tetrandra,Tamaricaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Viermannige-Tamariske x,,,132,nur_ocr,duenn,,,,,ja,nein
+Taxus baccata,Taxus,baccata,Taxaceae,skript,Nadelgehoelz,pruefung,ja,ja,ja,ja,ja,Gemeine Eibe,ja,8,20,quelle_sauber,vollstaendig,Taxus baccata,Taxus Baccata,,,nein,nein
+Taxus cuspidata,Taxus,cuspidata,Taxaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Japanische Eibe,,,20,nur_ocr,duenn,,,,,ja,nein
+Torreya californica,Torreya,californica,Taxaceae,skript,Nadelgehoelz,kontext,nein,nein,ja,nein,nein,Kalifornische Nusseibe ih,,,21,nur_ocr,duenn,,,,,ja,nein
+Torreya nicifera,Torreya,nicifera,Taxaceae,skript,Nadelgehoelz,vorlesung,nein,ja,nein,nein,nein,Japanische Nusseibe,,8,21,quelle_sauber,duenn,,Torreya Nicifera,,nucifera,nein,nein
+Stewartia pseudocamellia,Stewartia,pseudocamellia,Theaceae,extern,Laubgehoelz,pruefung,ja,nein,nein,nein,nein,,,,,quelle_sauber,ohne_quelle,Stewartia pseudocamellia,,,,nein,nein
+Daphne alpina,Daphne,alpina,Thymelaeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,128,nur_ocr,duenn,,,,,ja,nein
+Daphne cneorum,Daphne,cneorum,Thymelaeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,128,nur_ocr,duenn,,,,,ja,nein
+Daphne laureola,Daphne,laureola,Thymelaeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,127,nur_ocr,duenn,,,,,ja,nein
+Daphne mezereum,Daphne,mezereum,Thymelaeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,127,nur_ocr,duenn,,,,,ja,nein
+Daphne striata,Daphne,striata,Thymelaeaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,,,,128,nur_ocr,duenn,,,,,ja,nein
+Tilia americana,Tilia,americana,Tiliaceae/Malvaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Amerikanische Linde,,45,140,quelle_sauber,teilweise,,Tilia Americana,,,nein,nein
+Tilia cordata,Tilia,cordata,Tiliaceae/Malvaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Winterlinde,ja,45,139,quelle_sauber,vollstaendig,Tilia cordata,Tilia Cordata,,,nein,nein
+Tilia euchlora,Tilia,euchlora,Tiliaceae/Malvaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Krim Linde,,45,,quelle_sauber,duenn,,Tilia X Euchlora,,,nein,nein
+Tilia platyphyllos,Tilia,platyphyllos,Tiliaceae/Malvaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Sommerlinde,ja,44,139,quelle_sauber,vollstaendig,Tilia platyphyllos,Tilia Platyphyllos,,,nein,nein
+Tilia tomentosa,Tilia,tomentosa,Tiliaceae/Malvaceae,skript,Laubgehoelz,pruefung,ja,nein,ja,ja,ja,Silber-Linde (A),,,140,quelle_sauber,teilweise,Tilia tomentosa,,,,nein,nein
+Celtis australis,Celtis,australis,Ulmaceae,skript,Laubgehoelz,pruefung,ja,ja,nein,ja,ja,Südl. Zürgelbaum,,20,,quelle_sauber,teilweise,Celtis australis,Celtis Autralis,,,nein,nein
+Celtis occidentalis,Celtis,occidentalis,Ulmaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Amerikanischer Zürgelbaum,,20,,quelle_sauber,duenn,,Celtis Occidentalis,,,nein,nein
+Celtis tournefourti,Celtis,tournefourti,Ulmaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Tourneforts Zürgelbaum,,20,,quelle_sauber,duenn,,Celtis Tournefourti,,,nein,nein
+Ulmus glabra,Ulmus,glabra,Ulmaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Bergulme,ja,19,54,quelle_sauber,vollstaendig,Ulmus glabra,Ulmus Glabra,,,nein,nein
+Ulmus hollandica,Ulmus,hollandica,Ulmaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,"Holländ.Ulme, Goldulme",,19,,quelle_sauber,duenn,,Ulmus X Hollandica,,,nein,nein
+Ulmus laevis,Ulmus,laevis,Ulmaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Flatter Ulme,ja,,54,quelle_sauber,vollstaendig,Ulmus laevis,Ulmus Laevis,,,nein,nein
+Ulmus minor,Ulmus,minor,Ulmaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,nein,Feldulme,ja,19,54,quelle_sauber,vollstaendig,Ulmus minor,Ulmus Minor,,,nein,nein
+Ulmus pumila,Ulmus,pumila,Ulmaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Zwerg Ulme,,19,55,quelle_sauber,teilweise,,Ulmus Pumila,,,nein,nein
+Zelkova carpinifolia,Zelkova,carpinifolia,Ulmaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Kaukasische Zelkove N 2,,,55,nur_ocr,duenn,,,,,ja,nein
+Zelkova serrata,Zelkova,serrata,Ulmaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Japanische Zelkove VY,,,55,quelle_sauber,duenn,,,,,nein,nein
+Callicarpa bodinieri,Callicarpa,bodinieri,Verbenaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,"Liebesperlenstrauch, Schönfrucht",,53,162,quelle_sauber,teilweise,,Callicarpa Bodinieri,,,nein,nein
+Callicarpa japonica,Callicarpa,japonica,Verbenaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Japanische Schönfrucht (Weiße Schénfru,,,162,nur_ocr,duenn,,,,,ja,nein
+Caryopteris clandonensis,Caryopteris,clandonensis,Verbenaceae,skript,Laubgehoelz,vorlesung,nein,ja,nein,nein,nein,Bartblume,,53,,quelle_sauber,duenn,,Caryopteris X Clandonensis,,,nein,nein
+Caryopteris incana,Caryopteris,incana,Verbenaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Graufilzige Bartblume,,53,162,quelle_sauber,teilweise,,Cariopteris Incana,,,nein,nein
+Clerodendron trichotomum,Clerodendron,trichotomum,Verbenaceae,skript,Laubgehoelz,kontext,nein,nein,ja,nein,nein,Losbaum f N,,,163,nur_ocr,duenn,,,,,ja,nein
+Parthenocissus quinquefolia,Parthenocissus,quinquefolia,Vitaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Wilder Wein,,41,"124,125",quelle_sauber,teilweise,,Partenocissus Quinquefolia,,,nein,nein
+Parthenocissus tricuspidata,Parthenocissus,tricuspidata,Vitaceae,skript,Laubgehoelz,vorlesung,nein,ja,ja,nein,nein,Jungfernrebe,,41,124,quelle_sauber,teilweise,,Partenocissus Tricuspidata,,,nein,nein
+Vitis coignetiae,Vitis,coignetiae,Vitaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Rostrote Weinrebe,,41,124,quelle_sauber,vollstaendig,Vitis coignetiae,Vitis Coignetiae,,,nein,nein
+Vitis vinifera ssp. sylvestris,Vitis,vinifera,Vitaceae,skript,Laubgehoelz,pruefung,ja,ja,ja,ja,ja,Wilde Weinrebe,,41,124,quelle_sauber,vollstaendig,Vitis vinifera ssp. sylvestris,Vitis Vinifera ssp. Sylvestris,,,nein,nein
